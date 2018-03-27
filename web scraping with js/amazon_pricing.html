@@ -1,0 +1,3051 @@
+TypeError: 'undefined' is not a function (evaluating 'Math.log1p(max)')
+
+  http://web.archive.org/static/js/graph-calc.js?v=1521067262.0:39 in capturegraph_scale_is_required
+  http://web.archive.org/static/js/graph-calc.js?v=1521067262.0:50 in capturegraph_scale
+  http://web.archive.org/static/js/graph-calc.js?v=1521067262.0:76 in sparkline
+  http://web.archive.org/static/js/toolbar.js?v=1521067262.0:181
+  http://web.archive.org/static/js/toolbar.js?v=1521067262.0:20
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd"><html><head><script src="//archive.org/includes/analytics.js?v=cf34f82" type="text/javascript"></script>
+<script type="text/javascript">window.addEventListener('DOMContentLoaded',function(){var v=archive_analytics.values;v.service='wb';v.server_name='wwwb-app43.us.archive.org';v.server_ms=755;archive_analytics.send_pageview({});});</script><script type="text/javascript" src="/static/js/wbhack.js?v=1521067262.0" charset="utf-8"></script>
+
+<script type="text/javascript">
+__wbhack.init('http://web.archive.org/web');
+</script>
+<link rel="stylesheet" type="text/css" href="/static/css/banner-styles.css?v=1521067262.0">
+<link rel="stylesheet" type="text/css" href="/static/css/iconochive.css?v=1521067262.0">
+
+<!-- End Wayback Rewrite JS Include -->
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <link rel="icon" type="image/ico" href="//web.archive.org/web/20110831155858im_/http://d36cz9buwru1tt.cloudfront.net/favicon.ico">
+  <link rel="shortcut icon" type="image/ico" href="//web.archive.org/web/20110831155858im_/http://d36cz9buwru1tt.cloudfront.net/favicon.ico">
+  <meta name="description" content="Pay only for what you use. There is no minimum fee. The prices listed are based on the Region in which your instance is running. For a detailed comparison between On-Demand Instances, Reserved Instances and Spot Instances, see Amazon EC2 Instance Purchasing Options."><meta name="keywords" content="">
+
+  <title>Amazon EC2 Pricing</title>
+
+  
+
+  <link rel="stylesheet" href="/web/20110831155858cs_/http://aws.amazon.com/css/screen_1.css" type="text/css">
+  <!--[if lt IE 7]>
+    <link rel="stylesheet" href="/css/awsGlobalNav2IE6.css" type="text/css" />
+    <link rel="stylesheet" href="/css/documentationIE6.css" type="text/css" />
+  <![endif]-->
+
+  
+    <style type="text/css">
+  .pricingTable.padContent .content {
+      padding: 10px;
+  }
+  .pricingTable .rate {
+    text-align: center;
+  }
+</style>
+
+  
+
+  <script src="/web/20110831155858js_/http://aws.amazon.com/js/all_1.js" type="text/javascript"></script>
+
+  <script type="text/javascript">
+  __amznUtmPage = "/ec2/pricing/";
+</script>
+<script src="/web/20110831155858js_/http://aws.amazon.com/js/amznUrchin.js" type="text/javascript"></script><script type="text/javascript" src="http://d36cz9buwru1tt.cloudfront.net/urchin.js"></script> 
+</head>
+
+<body id="top" class="yui-skin-sam hasJS"><div id="wm-ipp" lang="en" style="direction: ltr; display: block; ">
+<div style="position:fixed;left:0;top:0;right:0;">
+<div id="wm-ipp-inside">
+  <div style="position:relative;">
+    <div id="wm-logo" style="float:left;width:130px;padding-top:10px;">
+      <a href="/web/" title="Wayback Machine home page"><img src="/static/images/toolbar/wayback-toolbar-logo.png" alt="Wayback Machine" width="110" height="39" border="0"></a>
+    </div>
+    <div class="r" style="float:right;">
+      <div id="wm-btns" style="text-align:right;height:25px;">
+                  <div id="wm-save-snapshot-success">success</div>
+          <div id="wm-save-snapshot-fail">fail</div>
+          <a href="#" onclick="__wm.saveSnapshot('http://aws.amazon.com/ec2/pricing', '20110831155858')" title="Share via My Web Archive" id="wm-save-snapshot-open" style="display: none; ">
+            <span class="iconochive-web"></span>
+          </a>
+          <a href="https://archive.org/account/login.php" title="Sign In" id="wm-sign-in" style="display: inline-block; ">
+            <span class="iconochive-person"></span>
+          </a>
+          <span id="wm-save-snapshot-in-progress" class="iconochive-web" style="display: none; "></span>
+        	<a href="http://faq.web.archive.org/" title="Get some help using the Wayback Machine" style="top:-6px;"><span class="iconochive-question" style="color:rgb(87,186,244);font-size:160%;"></span></a>
+	<a id="wm-tb-close" href="#close" onclick="__wm.h(event);return false;" style="top:-2px;" title="Close the toolbar"><span class="iconochive-remove-circle" style="color:#888888;font-size:240%;"></span></a>
+      </div>
+      <div id="wm-share" style="text-align:right;">
+	<a href="#" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=http://web.archive.org/web/20110831155858/http://aws.amazon.com:80/ec2/pricing/', '', 'height=400,width=600'); return false;" title="Share on Facebook" style="margin-right:5px;" target="_blank"><span class="iconochive-facebook" style="color:#3b5998;font-size:160%;"></span></a>
+	<a href="#" onclick="window.open('https://twitter.com/intent/tweet?text=http://web.archive.org/web/20110831155858/http://aws.amazon.com:80/ec2/pricing/&amp;via=internetarchive', '', 'height=400,width=600'); return false;" title="Share on Twitter" style="margin-right:5px;" target="_blank"><span class="iconochive-twitter" style="color:#1dcaff;font-size:160%;"></span></a>
+      </div>
+    </div>
+    <table class="c" style="">
+      <tbody>
+	<tr>
+	  <td class="u" colspan="2">
+	    <form target="_top" method="get" action="/web/submit" name="wmtb" id="wmtb"><input type="text" name="url" id="wmtbURL" value="http://aws.amazon.com/ec2/pricing" onfocus="this.focus();this.select();" autocomplete="off"><input type="hidden" name="type" value="replay"><input type="hidden" name="date" value="20110831155858"><input type="submit" value="Go"></form>
+	  </td>
+	  <td class="n" rowspan="2" style="width:110px;">
+	    <table>
+	      <tbody>
+		<!-- NEXT/PREV MONTH NAV AND MONTH INDICATOR -->
+		<tr class="m">
+		  <td class="b" nowrap="nowrap"><a href="http://web.archive.org/web/20110720150641/http://aws.amazon.com/ec2/pricing/" title="20 Jul 2011"><strong>Jul</strong></a></td>
+		  <td class="c" id="displayMonthEl" title="You are here: 15:58:58 Aug 31, 2011">AUG</td>
+		  <td class="f" nowrap="nowrap"><a href="http://web.archive.org/web/20111001080348/http://aws.amazon.com:80/ec2/pricing" title="01 Oct 2011"><strong>Oct</strong></a></td>
+		</tr>
+		<!-- NEXT/PREV CAPTURE NAV AND DAY OF MONTH INDICATOR -->
+		<tr class="d">
+		  <td class="b" nowrap="nowrap"><a href="http://web.archive.org/web/20110829130330/https://aws.amazon.com/ec2/pricing" title="13:03:30 Aug 29, 2011"><img src="/static/images/toolbar/wm_tb_prv_on.png" alt="Previous capture" width="14" height="16" border="0"></a></td>
+		  <td class="c" id="displayDayEl" style="width:34px;font-size:24px;white-space:nowrap;" title="You are here: 15:58:58 Aug 31, 2011">31</td>
+		  <td class="f" nowrap="nowrap"><a href="http://web.archive.org/web/20110903042448/http://aws.amazon.com:80/ec2/pricing" title="04:24:48 Sep 03, 2011"><img src="/static/images/toolbar/wm_tb_nxt_on.png" alt="Next capture" width="14" height="16" border="0"></a></td>
+		</tr>
+		<!-- NEXT/PREV YEAR NAV AND YEAR INDICATOR -->
+		<tr class="y">
+		  <td class="b" nowrap="nowrap"><a href="http://web.archive.org/web/20100809075551/http://aws.amazon.com:80/ec2/pricing/" title="09 Aug 2010"><strong>2010</strong></a></td>
+		  <td class="c" id="displayYearEl" title="You are here: 15:58:58 Aug 31, 2011">2011</td>
+		  <td class="f" nowrap="nowrap"><a href="http://web.archive.org/web/20120901154501/http://aws.amazon.com:80/ec2/pricing" title="01 Sep 2012"><strong>2012</strong></a></td>
+		</tr>
+	      </tbody>
+	    </table>
+	  </td>
+	</tr>
+	<tr>
+	  <td class="s">
+	    	    <div id="wm-nav-captures"><a class="t" href="/web/*/http://aws.amazon.com/ec2/pricing" title="See a list of every capture for this URL">934 captures</a><div class="r" title="Timespan for captures of this URL">18 Feb 2010 - 19 Mar 2018</div></div>
+	  </td>
+	  <td class="k">
+	    <a href="" id="wm-graph-anchor">
+	      <div id="wm-ipp-sparkline" title="Explore captures for this URL" style="position: relative">
+		<canvas id="wm-sparkline-canvas" width="575" height="27" border="0"></canvas>
+	      <div class="yt" style="display: none; width: 25px; height: 27px; "></div><div class="mt" style="display: none; width: 2px; height: 27px; "></div></div>
+	    </a>
+	  </td>
+	</tr>
+      </tbody>
+    </table>
+    <div style="position:absolute;bottom:0;right:2px;text-align:right;">
+      <a id="wm-expand" class="wm-btn wm-closed" href="#expand" onclick="__wm.ex(event);return false;"><span id="wm-expand-icon" class="iconochive-down-solid"></span> <span style="font-size:80%">About this capture</span></a>
+    </div>
+  </div>
+    <div id="wm-capinfo" style="border-top:1px solid #777;display:none; overflow: hidden">
+            <div style="background-color:#666;color:#fff;font-weight:bold;text-align:center">COLLECTED BY</div>
+    <div style="padding:3px;position:relative" id="wm-collected-by-content">
+            <div style="display:inline-block;vertical-align:top;width:50%;">
+			<span class="c-logo" style="background-image:url(https://archive.org/services/img/alexacrawls);"></span>
+		Organization: <a style="color:#33f;" href="https://archive.org/details/alexacrawls" target="_new"><span class="wm-title">Alexa Crawls</span></a>
+		<div style="max-height:75px;overflow:hidden;position:relative;">
+	  <div style="position:absolute;top:0;left:0;width:100%;height:75px;background:linear-gradient(to bottom,rgba(255,255,255,0) 0%,rgba(255,255,255,0) 90%,rgba(255,255,255,255) 100%);"></div>
+	  Starting in 1996, <a href="http://www.alexa.com/">Alexa Internet</a> has been donating their crawl data to the Internet Archive.  Flowing in every day, these data are added to the <a href="http://web.archive.org/">Wayback Machine</a> after an embargo period.
+	</div>
+	      </div>
+      <div style="display:inline-block;vertical-align:top;width:49%;">
+			<span class="c-logo" style="background-image:url(https://archive.org/services/img/alexacrawls)"></span>
+		<div>Collection: <a style="color:#33f;" href="https://archive.org/details/alexacrawls" target="_new"><span class="wm-title">Alexa Crawls</span></a></div>
+		<div style="max-height:75px;overflow:hidden;position:relative;">
+	  <div style="position:absolute;top:0;left:0;width:100%;height:75px;background:linear-gradient(to bottom,rgba(255,255,255,0) 0%,rgba(255,255,255,0) 90%,rgba(255,255,255,255) 100%);"></div>
+	  Starting in 1996, <a href="http://www.alexa.com/">Alexa Internet</a> has been donating their crawl data to the Internet Archive.  Flowing in every day, these data are added to the <a href="http://web.archive.org/">Wayback Machine</a> after an embargo period.
+	</div>
+	      </div>
+    </div>
+    <div style="background-color:#666;color:#fff;font-weight:bold;text-align:center" title="Timestamps for the elements of this page">TIMESTAMPS</div>
+    <div>
+      <div id="wm-capresources" style="margin:0 5px 5px 5px;max-height:250px;overflow-y:scroll !important"></div>
+      <div id="wm-capresources-loading" style="text-align:left;margin:0 20px 5px 5px;display:none"><img src="/static/images/loading.gif" alt="loading"></div>
+    </div>
+  </div></div></div></div><!-- BEGIN WAYBACK TOOLBAR INSERT -->
+<script type="text/javascript" src="/static/js/timestamp.js?v=1521067262.0" charset="utf-8"></script>
+<script type="text/javascript" src="/static/js/graph-calc.js?v=1521067262.0" charset="utf-8"></script>
+<script type="text/javascript" src="/static/js/auto-complete.js?v=1521067262.0" charset="utf-8"></script>
+<script type="text/javascript" src="/static/js/toolbar.js?v=1521067262.0" charset="utf-8"></script>
+
+<style type="text/css">
+body {
+  margin-top:0 !important;
+  padding-top:0 !important;
+  /*min-width:800px !important;*/
+}
+.wb-autocomplete-suggestions {
+    text-align: left; cursor: default; border: 1px solid #ccc; border-top: 0; background: #fff; box-shadow: -1px 1px 3px rgba(0,0,0,.1);
+    position: absolute; display: none; z-index: 2147483647; max-height: 254px; overflow: hidden; overflow-y: auto; box-sizing: border-box;
+}
+.wb-autocomplete-suggestion { position: relative; padding: 0 .6em; line-height: 23px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size: 1.02em; color: #333; }
+.wb-autocomplete-suggestion b { font-weight: bold; }
+.wb-autocomplete-suggestion.selected { background: #f0f0f0; }
+</style>
+<script type="text/javascript">
+__wm.bt(575,27,25,2,"web","http://aws.amazon.com/ec2/pricing","2011-08-31",1996);
+</script><div class="wb-autocomplete-suggestions "></div>
+<!-- END WAYBACK TOOLBAR INSERT -->
+  
+  <!-- layout _210_left -->
+  <div id="doc4" class="yui-t2">
+    <div id="hd">
+
+
+
+
+
+
+
+
+  <!-- header -->
+<div id="mainNav" class="withSearch hasJS">
+  <a href="/web/20110831155858/http://aws.amazon.com/">
+    <img src="//web.archive.org/web/20110831155858im_/http://d36cz9buwru1tt.cloudfront.net/logo_aws.gif" id="awsHeaderLogo" width="164" height="60" alt="Amazon Web Services">
+  </a>
+
+  <div id="globalTopLinks">
+    <a href="http://web.archive.org/web/20110831155858/https://console.aws.amazon.com/s3/home" class="signIn"><img src="//web.archive.org/web/20110831155858im_/http://d36cz9buwru1tt.cloudfront.net/globalNav/img/laptop-icon-16x13.png" width="16" height="13" alt=""><span>Sign in to the AWS Management Console</span></a>
+    <a href="http://web.archive.org/web/20110831155858/https://aws-portal.amazon.com/gp/aws/developer/registration/index.html" class="create"><img src="//web.archive.org/web/20110831155858im_/http://d36cz9buwru1tt.cloudfront.net/globalNav/img/aws-box-13x13.png" width="13" height="13" alt=""><span>Create an AWS Account</span></a>
+  <span class="language"><span class="img"></span><a href="#" class="current">English</a><ul id="langFlyout"><li class="lang"><a href="/web/20110831155858/http://aws.amazon.com/ec2/pricing">English</a></li><li class="lang"><a href="/fr/web/20110831155858/http://aws.amazon.com/ec2/pricing">French <span class="native">(Français)</span></a></li><li class="lang"><a href="/de/web/20110831155858/http://aws.amazon.com/ec2/pricing">German <span class="native">(Deutsch)</span></a></li><li class="lang"><a href="/jp/web/20110831155858/http://aws.amazon.com/ec2/pricing">Japanese <span class="native">(日本語)</span></a></li><li class="lang"><a href="/es/web/20110831155858/http://aws.amazon.com/ec2/pricing">Spanish <span class="native">(Español)</span></a></li></ul></span></div>
+
+  <div id="globalSearch" style="width: 515px; ">
+    <form method="get" action="/web/20110831155858/http://aws.amazon.com/search">
+      <div class="liner">
+        <label>Search:</label>
+        <div class="fancySelect" style="left: 59px; width: 165px; ">AWS Product Information</div><select name="searchPath" class="pathSelect" style="display: none; "><option value="all">Entire Site</option><option value="amis">AMIs</option><option value="articles">Articles &amp; Tutorials</option><option value="products_and_info">AWS Product Information</option><option value="case_studies">Case Studies</option><option value="customerapps">Customer Apps</option><option value="developertools">Developer Tools</option><option value="documentation">Documentation</option><option value="datasets">Public Data Sets</option><option value="releasenotes">Release Notes</option><option value="solution_providers">Solution Providers</option><option value="code">Sample Code &amp; Libraries</option></select>
+        <div class="buttonInput">
+          <input type="text" name="searchQuery" class="query input" style="width: 213px; ">
+          <input class="submit" type="image" src="//web.archive.org/web/20110831155858im_/http://d36cz9buwru1tt.cloudfront.net/globalNav/search-submit-23x23.png" width="23" height="23" alt="Go">
+        </div>
+      </div>
+    </form>
+  </div>
+
+  <ul id="tabs">
+    <li class="first tab" id="awsTab">
+      <div class="liner">
+        <span class="icon"></span><a href="/web/20110831155858/http://aws.amazon.com/about-aws/">AWS</a>
+      </div>
+    </li>
+    <li class="tab" id="productsTab">
+      <div class="liner">
+        <span class="icon"></span><a href="/web/20110831155858/http://aws.amazon.com/products/">Products</a>
+      </div>
+    </li>
+    <li class="tab" id="developersTab">
+      <div class="liner">
+        <span class="icon"></span><a href="/web/20110831155858/http://aws.amazon.com/resources/">Developers</a>
+      </div>
+    </li>
+    <li class="tab" id="communityTab">
+      <div class="liner">
+        <span class="icon"></span><a href="/web/20110831155858/http://aws.amazon.com/resources/">Community</a>
+      </div>
+    </li>
+    <li class="tab" id="supportTab">
+      <div class="liner">
+        <span class="icon"></span><a href="http://web.archive.org/web/20110831155858/http://developer.amazonwebservices.com/connect/support.jspa">Support</a>
+      </div>
+    </li>
+    <li class="last tab" id="accountTab">
+      <div class="liner">
+        <span class="icon"></span><a href="/web/20110831155858/http://aws.amazon.com/account/">Account</a>
+      </div>
+    </li>
+  </ul>
+
+  <div class="flyout">
+    <div class="liner">
+      <div class="content"></div>
+      <a href="#" class="close">
+        close <img src="//web.archive.org/web/20110831155858im_/http://d36cz9buwru1tt.cloudfront.net/globalNav/img/close-14x14.png" height="14" width="14" alt="">
+      </a>
+    </div>
+  </div>
+</div>
+
+
+
+<noscript>
+  &lt;!--#if expr="${LANG_NOT_FOUND}" --&gt;
+    &lt;div id="pageNotTranslated"&gt;
+      &lt;!--#include virtual="/errors/untranslated/$LANG_NOT_FOUND/index.html" --&gt;
+    &lt;/div&gt;
+  &lt;!--#endif --&gt;
+</noscript>
+
+
+<script type="text/javascript">
+  if ( ! window.AWSGlobalNav ) {
+      AWSGlobalNav = {};
+  }
+
+  // This has to be set early (before the onload handlers execute)
+  AWSGlobalNav.acceptLanguage = '<!--#echo var="ACCEPT_LANGUAGE_HEADER" -->';
+
+
+  jQuery(function($) {
+      $.extend(AWSGlobalNav, {
+          tabContentBaseURL: '//web.archive.org/web/20110831155858/http://aws.amazon.com/',
+          smartLanguageChange: true
+      });
+  });
+</script>
+
+
+<!-- /header -->
+
+
+</div> 
+    <div id="bd">
+  <!-- layout product_detail -->
+  <div id="yui-main" style="line-height:1.5em;">
+    <div class="yui-b">
+      <h1 class="title">Amazon EC2 Pricing</h1>
+
+<p>
+  Pay only for what you use. There is no minimum fee. Estimate your
+  monthly bill using <a href="/web/20110831155858/http://aws.amazon.com/calculator">AWS
+  Simple Monthly Calculator</a>.  The prices listed are based on the
+  Region in which your instance is running. For a detailed comparison
+  between On-Demand Instances, Reserved Instances and Spot Instances,
+  see <a href="/web/20110831155858/http://aws.amazon.com/ec2/purchasing-options">Amazon EC2 Instance Purchasing
+  Options</a>.
+</p>
+
+<div style="background-color:#FDFDEF; border:solid 1px #C9CDD0; padding:12px 14px 12px 14px;">
+  <p style="color:#E47911; font-weight:bold; font-size:125%">Free Tier*</p>
+
+  <p>
+    As part of <a href="/web/20110831155858/http://aws.amazon.com/free/">AWS’s Free Usage
+      Tier</a>, new AWS customers can get started with Amazon EC2 for
+    free. Upon sign-up, new AWS customers receive the following EC2
+    services each month for one year: 
+  </p>
+
+  <ul>
+    <li> 750 hours of EC2 running Linux/Unix Micro instance usage </li>
+    <li> 750 hours of Elastic Load Balancing plus 15 GB data processing</li>
+    <li> 10 GB of Amazon Elastic Block Storage (EBS) plus 1 million IOs, 1 GB snapshot storage, 10,000 snapshot Get Requests and 1,000 snapshot Put Requests </li>
+    <li> 15 GB of bandwidth out aggregated across all AWS services</li>
+    <li> 1 GB of Regional Data Transfer</li>
+  </ul> 
+</div>
+
+<h2>On-Demand Instances</h2>
+
+<p>
+  On-Demand Instances let you pay for compute capacity by the hour
+  with no long-term commitments. This frees you from the costs and
+  complexities of planning, purchasing, and maintaining hardware and
+  transforms what are commonly large fixed costs into much smaller
+  variable costs.
+</p>
+
+<p>
+  The pricing below includes the cost to run private and public AMIs
+  on the specified operating system (“Windows Usage”
+  prices apply to Windows Server® 2003 R2, 2008 and 2008 R2). Amazon
+  also provides you with additional instances
+  for <a href="/web/20110831155858/http://aws.amazon.com/windows/">Amazon EC2 running Microsoft Windows with
+  SQL Server</a>, <a href="/web/20110831155858/http://aws.amazon.com/suse/">Amazon EC2 running SUSE Linux
+  Enterprise Server</a>, <a href="/web/20110831155858/http://aws.amazon.com/rhel/">Amazon EC2 running Red Hat Enterprise Linux</a> and <a href="/web/20110831155858/http://aws.amazon.com/ibm/">Amazon EC2 running IBM</a>
+  that are priced differently.
+</p>
+
+<div id="onDemandPricing" class="pricingTable"><div class="controls"><div class="reg">Region:<select><option value="reg-us-east">US East (Virginia)</option><option value="reg-us-west">US West (Northern California)</option><option value="reg-eu-ireland">EU (Ireland)</option><option value="reg-apac-sin">Asia Pacific (Singapore)</option><option value="reg-apac-tokyo">Asia Pacific (Tokyo)</option></select></div><div class="currency" style="visibility: hidden; ">Currency:<select><option value="USD">$&nbsp;&nbsp;US Dollar</option></select></div></div><div class="puretmpl"><div class="progress loading" style="display: none; "></div>
+  <noscript>
+    Sorry, pricing information requires JavaScript.
+  </noscript>
+<div style="" class="content reg-us-east">
+    <table class="tan-table">
+      <caption>US East (Virginia)</caption>
+      <thead>
+        <tr>
+          <th></th>
+          <th class="rate">Linux/UNIX Usage</th><th class="rate">Windows Usage</th>
+        </tr>
+      </thead>
+      <tbody class="body">
+        <tr class="heading">
+          <th class="type" colspan="3">Standard On-Demand Instances</th>
+        </tr>
+        <tr class="sizes">
+          <td class="size">Small (Default)</td>
+          <td class="rate linux">$0.085 per hour</td><td class="rate mswin">$0.12 per hour</td>
+        </tr><tr class="sizes">
+          <td class="size">Large</td>
+          <td class="rate linux">$0.34 per hour</td><td class="rate mswin">$0.48 per hour</td>
+        </tr><tr class="sizes">
+          <td class="size">Extra Large</td>
+          <td class="rate linux">$0.68 per hour</td><td class="rate mswin">$0.96 per hour</td>
+        </tr>
+      </tbody><tbody class="body">
+        <tr class="heading">
+          <th class="type" colspan="3">Micro On-Demand Instances</th>
+        </tr>
+        <tr class="sizes">
+          <td class="size">Micro</td>
+          <td class="rate linux">$0.02 per hour</td><td class="rate mswin">$0.03 per hour</td>
+        </tr>
+      </tbody><tbody class="body">
+        <tr class="heading">
+          <th class="type" colspan="3">Hi-Memory On-Demand Instances</th>
+        </tr>
+        <tr class="sizes">
+          <td class="size">Extra Large</td>
+          <td class="rate linux">$0.50 per hour</td><td class="rate mswin">$0.62 per hour</td>
+        </tr><tr class="sizes">
+          <td class="size">Double Extra Large</td>
+          <td class="rate linux">$1.00 per hour</td><td class="rate mswin">$1.24 per hour</td>
+        </tr><tr class="sizes">
+          <td class="size">Quadruple Extra Large</td>
+          <td class="rate linux">$2.00 per hour</td><td class="rate mswin">$2.48 per hour</td>
+        </tr>
+      </tbody><tbody class="body">
+        <tr class="heading">
+          <th class="type" colspan="3">Hi-CPU On-Demand Instances</th>
+        </tr>
+        <tr class="sizes">
+          <td class="size">Medium</td>
+          <td class="rate linux">$0.17 per hour</td><td class="rate mswin">$0.29 per hour</td>
+        </tr><tr class="sizes">
+          <td class="size">Extra Large</td>
+          <td class="rate linux">$0.68 per hour</td><td class="rate mswin">$1.16 per hour</td>
+        </tr>
+      </tbody><tbody class="body">
+        <tr class="heading">
+          <th class="type" colspan="3">Cluster Compute Instances</th>
+        </tr>
+        <tr class="sizes">
+          <td class="size">Quadruple Extra Large</td>
+          <td class="rate linux">$1.60 per hour</td><td class="rate mswin">N/A*</td>
+        </tr>
+      </tbody><tbody class="body">
+        <tr class="heading">
+          <th class="type" colspan="3">Cluster GPU Instances</th>
+        </tr>
+        <tr class="sizes">
+          <td class="size">Quadruple Extra Large</td>
+          <td class="rate linux">$2.10 per hour</td><td class="rate mswin">N/A*</td>
+        </tr>
+      </tbody>
+      <tbody class="footnotes">
+        <tr>
+          <td colspan="3"><code>*</code> Windows® is not currently available for Cluster Compute or Cluster GPU Instances</td>
+        </tr>
+      </tbody>
+    </table>
+  </div><div style="display: none; " class="content reg-us-west">
+    <table class="tan-table">
+      <caption>US West (Northern California)</caption>
+      <thead>
+        <tr>
+          <th></th>
+          <th class="rate">Linux/UNIX Usage</th><th class="rate">Windows Usage</th>
+        </tr>
+      </thead>
+      <tbody class="body">
+        <tr class="heading">
+          <th class="type" colspan="3">Standard On-Demand Instances</th>
+        </tr>
+        <tr class="sizes">
+          <td class="size">Small (Default)</td>
+          <td class="rate linux">$0.095 per hour</td><td class="rate mswin">$0.13 per hour</td>
+        </tr><tr class="sizes">
+          <td class="size">Large</td>
+          <td class="rate linux">$0.38 per hour</td><td class="rate mswin">$0.52 per hour</td>
+        </tr><tr class="sizes">
+          <td class="size">Extra Large</td>
+          <td class="rate linux">$0.76 per hour</td><td class="rate mswin">$1.04 per hour</td>
+        </tr>
+      </tbody><tbody class="body">
+        <tr class="heading">
+          <th class="type" colspan="3">Micro On-Demand Instances</th>
+        </tr>
+        <tr class="sizes">
+          <td class="size">Micro</td>
+          <td class="rate linux">$0.025 per hour</td><td class="rate mswin">$0.035 per hour</td>
+        </tr>
+      </tbody><tbody class="body">
+        <tr class="heading">
+          <th class="type" colspan="3">Hi-Memory On-Demand Instances</th>
+        </tr>
+        <tr class="sizes">
+          <td class="size">Extra Large</td>
+          <td class="rate linux">$0.57 per hour</td><td class="rate mswin">$0.69 per hour</td>
+        </tr><tr class="sizes">
+          <td class="size">Double Extra Large</td>
+          <td class="rate linux">$1.14 per hour</td><td class="rate mswin">$1.38 per hour</td>
+        </tr><tr class="sizes">
+          <td class="size">Quadruple Extra Large</td>
+          <td class="rate linux">$2.28 per hour</td><td class="rate mswin">$2.76 per hour</td>
+        </tr>
+      </tbody><tbody class="body">
+        <tr class="heading">
+          <th class="type" colspan="3">Hi-CPU On-Demand Instances</th>
+        </tr>
+        <tr class="sizes">
+          <td class="size">Medium</td>
+          <td class="rate linux">$0.19 per hour</td><td class="rate mswin">$0.31 per hour</td>
+        </tr><tr class="sizes">
+          <td class="size">Extra Large</td>
+          <td class="rate linux">$0.76 per hour</td><td class="rate mswin">$1.24 per hour</td>
+        </tr>
+      </tbody><tbody class="body">
+        <tr class="heading">
+          <th class="type" colspan="3">Cluster Compute Instances</th>
+        </tr>
+        <tr class="sizes">
+          <td class="size">Quadruple Extra Large</td>
+          <td class="rate linux">N/A*</td><td class="rate mswin">N/A*</td>
+        </tr>
+      </tbody><tbody class="body">
+        <tr class="heading">
+          <th class="type" colspan="3">Cluster GPU Instances</th>
+        </tr>
+        <tr class="sizes">
+          <td class="size">Quadruple Extra Large</td>
+          <td class="rate linux">N/A*</td><td class="rate mswin">N/A*</td>
+        </tr>
+      </tbody>
+      <tbody class="footnotes">
+        <tr>
+          <td colspan="3"><code>*</code> Cluster Compute and Cluster GPU Instances are currently only available in the US East (Virginia) Region.</td>
+        </tr>
+      </tbody>
+    </table>
+  </div><div style="display: none; " class="content reg-eu-ireland">
+    <table class="tan-table">
+      <caption>EU (Ireland)</caption>
+      <thead>
+        <tr>
+          <th></th>
+          <th class="rate">Linux/UNIX Usage</th><th class="rate">Windows Usage</th>
+        </tr>
+      </thead>
+      <tbody class="body">
+        <tr class="heading">
+          <th class="type" colspan="3">Standard On-Demand Instances</th>
+        </tr>
+        <tr class="sizes">
+          <td class="size">Small (Default)</td>
+          <td class="rate linux">$0.095 per hour</td><td class="rate mswin">$0.12 per hour</td>
+        </tr><tr class="sizes">
+          <td class="size">Large</td>
+          <td class="rate linux">$0.38 per hour</td><td class="rate mswin">$0.48 per hour</td>
+        </tr><tr class="sizes">
+          <td class="size">Extra Large</td>
+          <td class="rate linux">$0.76 per hour</td><td class="rate mswin">$0.96 per hour</td>
+        </tr>
+      </tbody><tbody class="body">
+        <tr class="heading">
+          <th class="type" colspan="3">Micro On-Demand Instances</th>
+        </tr>
+        <tr class="sizes">
+          <td class="size">Micro</td>
+          <td class="rate linux">$0.025 per hour</td><td class="rate mswin">$0.035 per hour</td>
+        </tr>
+      </tbody><tbody class="body">
+        <tr class="heading">
+          <th class="type" colspan="3">Hi-Memory On-Demand Instances</th>
+        </tr>
+        <tr class="sizes">
+          <td class="size">Extra Large</td>
+          <td class="rate linux">$0.57 per hour</td><td class="rate mswin">$0.62 per hour</td>
+        </tr><tr class="sizes">
+          <td class="size">Double Extra Large</td>
+          <td class="rate linux">$1.14 per hour</td><td class="rate mswin">$1.24 per hour</td>
+        </tr><tr class="sizes">
+          <td class="size">Quadruple Extra Large</td>
+          <td class="rate linux">$2.28 per hour</td><td class="rate mswin">$2.48 per hour</td>
+        </tr>
+      </tbody><tbody class="body">
+        <tr class="heading">
+          <th class="type" colspan="3">Hi-CPU On-Demand Instances</th>
+        </tr>
+        <tr class="sizes">
+          <td class="size">Medium</td>
+          <td class="rate linux">$0.19 per hour</td><td class="rate mswin">$0.29 per hour</td>
+        </tr><tr class="sizes">
+          <td class="size">Extra Large</td>
+          <td class="rate linux">$0.76 per hour</td><td class="rate mswin">$1.16 per hour</td>
+        </tr>
+      </tbody><tbody class="body">
+        <tr class="heading">
+          <th class="type" colspan="3">Cluster Compute Instances</th>
+        </tr>
+        <tr class="sizes">
+          <td class="size">Quadruple Extra Large</td>
+          <td class="rate linux">N/A*</td><td class="rate mswin">N/A*</td>
+        </tr>
+      </tbody><tbody class="body">
+        <tr class="heading">
+          <th class="type" colspan="3">Cluster GPU Instances</th>
+        </tr>
+        <tr class="sizes">
+          <td class="size">Quadruple Extra Large</td>
+          <td class="rate linux">N/A*</td><td class="rate mswin">N/A*</td>
+        </tr>
+      </tbody>
+      <tbody class="footnotes">
+        <tr>
+          <td colspan="3"><code>*</code> Cluster Compute and Cluster GPU Instances are currently only available in the US East (Virginia) Region.</td>
+        </tr>
+      </tbody>
+    </table>
+  </div><div style="display: none; " class="content reg-apac-sin">
+    <table class="tan-table">
+      <caption>Asia Pacific (Singapore)</caption>
+      <thead>
+        <tr>
+          <th></th>
+          <th class="rate">Linux/UNIX Usage</th><th class="rate">Windows Usage</th>
+        </tr>
+      </thead>
+      <tbody class="body">
+        <tr class="heading">
+          <th class="type" colspan="3">Standard On-Demand Instances</th>
+        </tr>
+        <tr class="sizes">
+          <td class="size">Small (Default)</td>
+          <td class="rate linux">$0.095 per hour</td><td class="rate mswin">$0.12 per hour</td>
+        </tr><tr class="sizes">
+          <td class="size">Large</td>
+          <td class="rate linux">$0.38 per hour</td><td class="rate mswin">$0.48 per hour</td>
+        </tr><tr class="sizes">
+          <td class="size">Extra Large</td>
+          <td class="rate linux">$0.76 per hour</td><td class="rate mswin">$0.96 per hour</td>
+        </tr>
+      </tbody><tbody class="body">
+        <tr class="heading">
+          <th class="type" colspan="3">Micro On-Demand Instances</th>
+        </tr>
+        <tr class="sizes">
+          <td class="size">Micro</td>
+          <td class="rate linux">$0.025 per hour</td><td class="rate mswin">$0.035 per hour</td>
+        </tr>
+      </tbody><tbody class="body">
+        <tr class="heading">
+          <th class="type" colspan="3">Hi-Memory On-Demand Instances</th>
+        </tr>
+        <tr class="sizes">
+          <td class="size">Extra Large</td>
+          <td class="rate linux">$0.57 per hour</td><td class="rate mswin">$0.62 per hour</td>
+        </tr><tr class="sizes">
+          <td class="size">Double Extra Large</td>
+          <td class="rate linux">$1.14 per hour</td><td class="rate mswin">$1.24 per hour</td>
+        </tr><tr class="sizes">
+          <td class="size">Quadruple Extra Large</td>
+          <td class="rate linux">$2.28 per hour</td><td class="rate mswin">$2.48 per hour</td>
+        </tr>
+      </tbody><tbody class="body">
+        <tr class="heading">
+          <th class="type" colspan="3">Hi-CPU On-Demand Instances</th>
+        </tr>
+        <tr class="sizes">
+          <td class="size">Medium</td>
+          <td class="rate linux">$0.19 per hour</td><td class="rate mswin">$0.29 per hour</td>
+        </tr><tr class="sizes">
+          <td class="size">Extra Large</td>
+          <td class="rate linux">$0.76 per hour</td><td class="rate mswin">$1.16 per hour</td>
+        </tr>
+      </tbody><tbody class="body">
+        <tr class="heading">
+          <th class="type" colspan="3">Cluster Compute Instances</th>
+        </tr>
+        <tr class="sizes">
+          <td class="size">Quadruple Extra Large</td>
+          <td class="rate linux">N/A*</td><td class="rate mswin">N/A*</td>
+        </tr>
+      </tbody><tbody class="body">
+        <tr class="heading">
+          <th class="type" colspan="3">Cluster GPU Instances</th>
+        </tr>
+        <tr class="sizes">
+          <td class="size">Quadruple Extra Large</td>
+          <td class="rate linux">N/A*</td><td class="rate mswin">N/A*</td>
+        </tr>
+      </tbody>
+      <tbody class="footnotes">
+        <tr>
+          <td colspan="3"><code>*</code> Cluster Compute and Cluster GPU Instances are currently only available in the US East (Virginia) Region.</td>
+        </tr>
+      </tbody>
+    </table>
+  </div><div style="display: none; " class="content reg-apac-tokyo">
+    <table class="tan-table">
+      <caption>Asia Pacific (Tokyo)</caption>
+      <thead>
+        <tr>
+          <th></th>
+          <th class="rate">Linux/UNIX Usage</th><th class="rate">Windows Usage</th>
+        </tr>
+      </thead>
+      <tbody class="body">
+        <tr class="heading">
+          <th class="type" colspan="3">Standard On-Demand Instances</th>
+        </tr>
+        <tr class="sizes">
+          <td class="size">Small (Default)</td>
+          <td class="rate linux">$0.10 per hour</td><td class="rate mswin">$0.12 per hour</td>
+        </tr><tr class="sizes">
+          <td class="size">Large</td>
+          <td class="rate linux">$0.40 per hour</td><td class="rate mswin">$0.48 per hour</td>
+        </tr><tr class="sizes">
+          <td class="size">Extra Large</td>
+          <td class="rate linux">$0.80 per hour</td><td class="rate mswin">$0.96 per hour</td>
+        </tr>
+      </tbody><tbody class="body">
+        <tr class="heading">
+          <th class="type" colspan="3">Micro On-Demand Instances</th>
+        </tr>
+        <tr class="sizes">
+          <td class="size">Micro</td>
+          <td class="rate linux">$0.027 per hour</td><td class="rate mswin">$0.035 per hour</td>
+        </tr>
+      </tbody><tbody class="body">
+        <tr class="heading">
+          <th class="type" colspan="3">Hi-Memory On-Demand Instances</th>
+        </tr>
+        <tr class="sizes">
+          <td class="size">Extra Large</td>
+          <td class="rate linux">$0.60 per hour</td><td class="rate mswin">$0.62 per hour</td>
+        </tr><tr class="sizes">
+          <td class="size">Double Extra Large</td>
+          <td class="rate linux">$1.20 per hour</td><td class="rate mswin">$1.24 per hour</td>
+        </tr><tr class="sizes">
+          <td class="size">Quadruple Extra Large</td>
+          <td class="rate linux">$2.39 per hour</td><td class="rate mswin">$2.48 per hour</td>
+        </tr>
+      </tbody><tbody class="body">
+        <tr class="heading">
+          <th class="type" colspan="3">Hi-CPU On-Demand Instances</th>
+        </tr>
+        <tr class="sizes">
+          <td class="size">Medium</td>
+          <td class="rate linux">$0.20 per hour</td><td class="rate mswin">$0.29 per hour</td>
+        </tr><tr class="sizes">
+          <td class="size">Extra Large</td>
+          <td class="rate linux">$0.80 per hour</td><td class="rate mswin">$1.16 per hour</td>
+        </tr>
+      </tbody><tbody class="body">
+        <tr class="heading">
+          <th class="type" colspan="3">Cluster Compute Instances</th>
+        </tr>
+        <tr class="sizes">
+          <td class="size">Quadruple Extra Large</td>
+          <td class="rate linux">N/A*</td><td class="rate mswin">N/A*</td>
+        </tr>
+      </tbody><tbody class="body">
+        <tr class="heading">
+          <th class="type" colspan="3">Cluster GPU Instances</th>
+        </tr>
+        <tr class="sizes">
+          <td class="size">Quadruple Extra Large</td>
+          <td class="rate linux">N/A*</td><td class="rate mswin">N/A*</td>
+        </tr>
+      </tbody>
+      <tbody class="footnotes">
+        <tr>
+          <td colspan="3"><code>*</code> Cluster Compute and Cluster GPU Instances are currently only available in the US East (Virginia) Region.</td>
+        </tr>
+      </tbody>
+    </table>
+  </div></div></div>
+
+<p>
+  Pricing is per instance-hour consumed for each instance, from the
+  time an instance is launched until it is terminated. Each partial
+  instance-hour consumed will be billed as a full hour.
+</p>
+
+<h2>Reserved Instances</h2>
+
+<p>
+  Reserved Instances give you the option to make a low, one-time
+  payment for each instance you want to reserve and in turn receive a
+  significant discount on the hourly usage charge for that instance.
+  After the one-time payment for an instance, that instance is
+  reserved for you, and you have no further obligation; you may choose
+  to run that instance for the discounted usage rate for the duration
+  of your term, or when you do not use the instance, you will not pay
+  usage charges on it. In addition to Reserved Instances for
+  Linux/UNIX and Windows operating systems specified below, we also
+  offer Reserved Instances for <a href="/web/20110831155858/http://aws.amazon.com/suse/">Amazon EC2 running SUSE
+  Linux Enterprise Server</a> and <a href="/web/20110831155858/http://aws.amazon.com/windows/">Amazon EC2
+  running Microsoft SQL Server.</a>
+</p>
+
+<p>
+  <a href="/web/20110831155858/http://aws.amazon.com/dedicated-instances/">Dedicated Reserved Instances</a> are
+  also available.
+</p>
+
+<div id="reservedInstancePricing" class="pricingTable"><div class="controls"><div class="reg">Region:<select><option value="reg-us-east">US East (Virginia)</option><option value="reg-us-west">US West (Northern California)</option><option value="reg-eu-ireland">EU (Ireland)</option><option value="reg-apac-sin">Asia Pacific (Singapore)</option><option value="reg-apac-tokyo">Asia Pacific (Tokyo)</option></select></div><div class="currency" style="visibility: hidden; ">Currency:<select><option value="USD">$&nbsp;&nbsp;US Dollar</option></select></div></div><div class="puretmpl"><div class="progress loading" style="display: none; "></div>
+  <noscript>
+    Sorry, pricing information requires JavaScript.
+  </noscript>
+<div style="" class="content reg-us-east">
+    <table class="tan-table">
+      <caption>US East (Virginia)</caption>
+      <thead>
+        <tr>
+          <th></th>
+          <th class="rate">1 yr Term</th><th class="rate">3 yr Term</th><th class="rate">Linux/UNIX Usage</th><th class="rate">Windows Usage</th>
+        </tr>
+      </thead>
+      <tbody class="body">
+        <tr class="heading">
+          <th class="type" colspan="5">Standard Reserved Instances</th>
+        </tr>
+        <tr class="sizes">
+          <td class="size">Small (Default)</td>
+          <td class="rate yrTerm1">$227.50 </td><td class="rate yrTerm3">$350 </td><td class="rate linux">$0.03 per hour</td><td class="rate mswin">$0.05 per hour</td>
+        </tr><tr class="sizes">
+          <td class="size">Large</td>
+          <td class="rate yrTerm1">$910 </td><td class="rate yrTerm3">$1400 </td><td class="rate linux">$0.12 per hour</td><td class="rate mswin">$0.20 per hour</td>
+        </tr><tr class="sizes">
+          <td class="size">Extra Large</td>
+          <td class="rate yrTerm1">$1820 </td><td class="rate yrTerm3">$2800 </td><td class="rate linux">$0.24 per hour</td><td class="rate mswin">$0.40 per hour</td>
+        </tr>
+      </tbody><tbody class="body">
+        <tr class="heading">
+          <th class="type" colspan="5">Micro Reserved Instances</th>
+        </tr>
+        <tr class="sizes">
+          <td class="size">Micro</td>
+          <td class="rate yrTerm1">$54 </td><td class="rate yrTerm3">$82 </td><td class="rate linux">$0.007 per hour</td><td class="rate mswin">$0.013 per hour</td>
+        </tr>
+      </tbody><tbody class="body">
+        <tr class="heading">
+          <th class="type" colspan="5">High-Memory Reserved Instances</th>
+        </tr>
+        <tr class="sizes">
+          <td class="size">Extra Large</td>
+          <td class="rate yrTerm1">$1325 </td><td class="rate yrTerm3">$2000 </td><td class="rate linux">$0.17 per hour</td><td class="rate mswin">$0.24 per hour</td>
+        </tr><tr class="sizes">
+          <td class="size">Double Extra Large</td>
+          <td class="rate yrTerm1">$2650 </td><td class="rate yrTerm3">$4000 </td><td class="rate linux">$0.34 per hour</td><td class="rate mswin">$0.48 per hour</td>
+        </tr><tr class="sizes">
+          <td class="size">Quadruple Extra Large</td>
+          <td class="rate yrTerm1">$5300 </td><td class="rate yrTerm3">$8000 </td><td class="rate linux">$0.68 per hour</td><td class="rate mswin">$0.96 per hour</td>
+        </tr>
+      </tbody><tbody class="body">
+        <tr class="heading">
+          <th class="type" colspan="5">High-CPU Reserved Instances</th>
+        </tr>
+        <tr class="sizes">
+          <td class="size">Medium</td>
+          <td class="rate yrTerm1">$455 </td><td class="rate yrTerm3">$700 </td><td class="rate linux">$0.06 per hour</td><td class="rate mswin">$0.125 per hour</td>
+        </tr><tr class="sizes">
+          <td class="size">Extra Large</td>
+          <td class="rate yrTerm1">$1820 </td><td class="rate yrTerm3">$2800 </td><td class="rate linux">$0.24 per hour</td><td class="rate mswin">$0.50 per hour</td>
+        </tr>
+      </tbody><tbody class="body">
+        <tr class="heading">
+          <th class="type" colspan="5">Cluster Compute Reserved Instances</th>
+        </tr>
+        <tr class="sizes">
+          <td class="size">Quadruple Extra Large</td>
+          <td class="rate yrTerm1">$4290 </td><td class="rate yrTerm3">$6590 </td><td class="rate linux">$0.56 per hour</td><td class="rate mswin">N/A*</td>
+        </tr>
+      </tbody><tbody class="body">
+        <tr class="heading">
+          <th class="type" colspan="5">Cluster GPU Reserved Instances</th>
+        </tr>
+        <tr class="sizes">
+          <td class="size">Quadruple Extra Large</td>
+          <td class="rate yrTerm1">$5630 </td><td class="rate yrTerm3">$8650 </td><td class="rate linux">$0.74 per hour</td><td class="rate mswin">N/A*</td>
+        </tr>
+      </tbody>
+      <tbody class="footnotes">
+        <tr>
+          <td colspan="5"><code>*</code> Windows® is not currently available for Cluster Compute or Cluster GPU Instances</td>
+        </tr>
+      </tbody>
+    </table>
+  </div><div style="display: none; " class="content reg-us-west">
+    <table class="tan-table">
+      <caption>US West (Northern California)</caption>
+      <thead>
+        <tr>
+          <th></th>
+          <th class="rate">1 yr Term</th><th class="rate">3 yr Term</th><th class="rate">Linux/UNIX Usage</th><th class="rate">Windows Usage</th>
+        </tr>
+      </thead>
+      <tbody class="body">
+        <tr class="heading">
+          <th class="type" colspan="5">Standard Reserved Instances</th>
+        </tr>
+        <tr class="sizes">
+          <td class="size">Small (Default)</td>
+          <td class="rate yrTerm1">$227.50 </td><td class="rate yrTerm3">$350 </td><td class="rate linux">$0.04 per hour</td><td class="rate mswin">$0.06 per hour</td>
+        </tr><tr class="sizes">
+          <td class="size">Large</td>
+          <td class="rate yrTerm1">$910 </td><td class="rate yrTerm3">$1400 </td><td class="rate linux">$0.16 per hour</td><td class="rate mswin">$0.24 per hour</td>
+        </tr><tr class="sizes">
+          <td class="size">Extra Large</td>
+          <td class="rate yrTerm1">$1820 </td><td class="rate yrTerm3">$2800 </td><td class="rate linux">$0.32 per hour</td><td class="rate mswin">$0.48 per hour</td>
+        </tr>
+      </tbody><tbody class="body">
+        <tr class="heading">
+          <th class="type" colspan="5">Micro Reserved Instances</th>
+        </tr>
+        <tr class="sizes">
+          <td class="size">Micro</td>
+          <td class="rate yrTerm1">$54 </td><td class="rate yrTerm3">$82 </td><td class="rate linux">$0.01 per hour</td><td class="rate mswin">$0.016 per hour</td>
+        </tr>
+      </tbody><tbody class="body">
+        <tr class="heading">
+          <th class="type" colspan="5">High-Memory Reserved Instances</th>
+        </tr>
+        <tr class="sizes">
+          <td class="size">Extra Large</td>
+          <td class="rate yrTerm1">$1325 </td><td class="rate yrTerm3">$2000 </td><td class="rate linux">$0.24 per hour</td><td class="rate mswin">$0.32 per hour</td>
+        </tr><tr class="sizes">
+          <td class="size">Double Extra Large</td>
+          <td class="rate yrTerm1">$2650 </td><td class="rate yrTerm3">$4000 </td><td class="rate linux">$0.48 per hour</td><td class="rate mswin">$0.64 per hour</td>
+        </tr><tr class="sizes">
+          <td class="size">Quadruple Extra Large</td>
+          <td class="rate yrTerm1">$5300 </td><td class="rate yrTerm3">$8000 </td><td class="rate linux">$0.96 per hour</td><td class="rate mswin">$1.28 per hour</td>
+        </tr>
+      </tbody><tbody class="body">
+        <tr class="heading">
+          <th class="type" colspan="5">High-CPU Reserved Instances</th>
+        </tr>
+        <tr class="sizes">
+          <td class="size">Medium</td>
+          <td class="rate yrTerm1">$455 </td><td class="rate yrTerm3">$700 </td><td class="rate linux">$0.08 per hour</td><td class="rate mswin">$0.145 per hour</td>
+        </tr><tr class="sizes">
+          <td class="size">Extra Large</td>
+          <td class="rate yrTerm1">$1820 </td><td class="rate yrTerm3">$2800 </td><td class="rate linux">$0.32 per hour</td><td class="rate mswin">$0.58 per hour</td>
+        </tr>
+      </tbody><tbody class="body">
+        <tr class="heading">
+          <th class="type" colspan="5">Cluster Compute Reserved Instances</th>
+        </tr>
+        <tr class="sizes">
+          <td class="size">Quadruple Extra Large</td>
+          <td class="rate yrTerm1">N/A*</td><td class="rate yrTerm3">N/A*</td><td class="rate linux">N/A*</td><td class="rate mswin">N/A*</td>
+        </tr>
+      </tbody><tbody class="body">
+        <tr class="heading">
+          <th class="type" colspan="5">Cluster GPU Reserved Instances</th>
+        </tr>
+        <tr class="sizes">
+          <td class="size">Quadruple Extra Large</td>
+          <td class="rate yrTerm1">N/A*</td><td class="rate yrTerm3">N/A*</td><td class="rate linux">N/A*</td><td class="rate mswin">N/A*</td>
+        </tr>
+      </tbody>
+      <tbody class="footnotes">
+        <tr>
+          <td colspan="5"><code>*</code> Cluster Compute and Cluster GPU Instances are currently only available in the US East (Virginia) Region.</td>
+        </tr>
+      </tbody>
+    </table>
+  </div><div style="display: none; " class="content reg-eu-ireland">
+    <table class="tan-table">
+      <caption>EU (Ireland)</caption>
+      <thead>
+        <tr>
+          <th></th>
+          <th class="rate">1 yr Term</th><th class="rate">3 yr Term</th><th class="rate">Linux/UNIX Usage</th><th class="rate">Windows Usage</th>
+        </tr>
+      </thead>
+      <tbody class="body">
+        <tr class="heading">
+          <th class="type" colspan="5">Standard Reserved Instances</th>
+        </tr>
+        <tr class="sizes">
+          <td class="size">Small (Default)</td>
+          <td class="rate yrTerm1">$227.50 </td><td class="rate yrTerm3">$350 </td><td class="rate linux">$0.04 per hour</td><td class="rate mswin">$0.06 per hour</td>
+        </tr><tr class="sizes">
+          <td class="size">Large</td>
+          <td class="rate yrTerm1">$910 </td><td class="rate yrTerm3">$1400 </td><td class="rate linux">$0.16 per hour</td><td class="rate mswin">$0.24 per hour</td>
+        </tr><tr class="sizes">
+          <td class="size">Extra Large</td>
+          <td class="rate yrTerm1">$1820 </td><td class="rate yrTerm3">$2800 </td><td class="rate linux">$0.32 per hour</td><td class="rate mswin">$0.48 per hour</td>
+        </tr>
+      </tbody><tbody class="body">
+        <tr class="heading">
+          <th class="type" colspan="5">Micro Reserved Instances</th>
+        </tr>
+        <tr class="sizes">
+          <td class="size">Micro</td>
+          <td class="rate yrTerm1">$54 </td><td class="rate yrTerm3">$82 </td><td class="rate linux">$0.01 per hour</td><td class="rate mswin">$0.016 per hour</td>
+        </tr>
+      </tbody><tbody class="body">
+        <tr class="heading">
+          <th class="type" colspan="5">High-Memory Reserved Instances</th>
+        </tr>
+        <tr class="sizes">
+          <td class="size">Extra Large</td>
+          <td class="rate yrTerm1">$1325 </td><td class="rate yrTerm3">$2000 </td><td class="rate linux">$0.24 per hour</td><td class="rate mswin">$0.32 per hour</td>
+        </tr><tr class="sizes">
+          <td class="size">Double Extra Large</td>
+          <td class="rate yrTerm1">$2650 </td><td class="rate yrTerm3">$4000 </td><td class="rate linux">$0.48 per hour</td><td class="rate mswin">$0.64 per hour</td>
+        </tr><tr class="sizes">
+          <td class="size">Quadruple Extra Large</td>
+          <td class="rate yrTerm1">$5300 </td><td class="rate yrTerm3">$8000 </td><td class="rate linux">$0.96 per hour</td><td class="rate mswin">$1.28 per hour</td>
+        </tr>
+      </tbody><tbody class="body">
+        <tr class="heading">
+          <th class="type" colspan="5">High-CPU Reserved Instances</th>
+        </tr>
+        <tr class="sizes">
+          <td class="size">Medium</td>
+          <td class="rate yrTerm1">$455 </td><td class="rate yrTerm3">$700 </td><td class="rate linux">$0.08 per hour</td><td class="rate mswin">$0.145 per hour</td>
+        </tr><tr class="sizes">
+          <td class="size">Extra Large</td>
+          <td class="rate yrTerm1">$1820 </td><td class="rate yrTerm3">$2800 </td><td class="rate linux">$0.32 per hour</td><td class="rate mswin">$0.58 per hour</td>
+        </tr>
+      </tbody><tbody class="body">
+        <tr class="heading">
+          <th class="type" colspan="5">Cluster Compute Reserved Instances</th>
+        </tr>
+        <tr class="sizes">
+          <td class="size">Quadruple Extra Large</td>
+          <td class="rate yrTerm1">N/A*</td><td class="rate yrTerm3">N/A*</td><td class="rate linux">N/A*</td><td class="rate mswin">N/A*</td>
+        </tr>
+      </tbody><tbody class="body">
+        <tr class="heading">
+          <th class="type" colspan="5">Cluster GPU Reserved Instances</th>
+        </tr>
+        <tr class="sizes">
+          <td class="size">Quadruple Extra Large</td>
+          <td class="rate yrTerm1">N/A*</td><td class="rate yrTerm3">N/A*</td><td class="rate linux">N/A*</td><td class="rate mswin">N/A*</td>
+        </tr>
+      </tbody>
+      <tbody class="footnotes">
+        <tr>
+          <td colspan="5"><code>*</code> Cluster Compute and Cluster GPU Instances are currently only available in the US East (Virginia) Region.</td>
+        </tr>
+      </tbody>
+    </table>
+  </div><div style="display: none; " class="content reg-apac-sin">
+    <table class="tan-table">
+      <caption>Asia Pacific (Singapore)</caption>
+      <thead>
+        <tr>
+          <th></th>
+          <th class="rate">1 yr Term</th><th class="rate">3 yr Term</th><th class="rate">Linux/UNIX Usage</th><th class="rate">Windows Usage</th>
+        </tr>
+      </thead>
+      <tbody class="body">
+        <tr class="heading">
+          <th class="type" colspan="5">Standard Reserved Instances</th>
+        </tr>
+        <tr class="sizes">
+          <td class="size">Small (Default)</td>
+          <td class="rate yrTerm1">$227.50 </td><td class="rate yrTerm3">$350 </td><td class="rate linux">$0.04 per hour</td><td class="rate mswin">$0.06 per hour</td>
+        </tr><tr class="sizes">
+          <td class="size">Large</td>
+          <td class="rate yrTerm1">$910 </td><td class="rate yrTerm3">$1400 </td><td class="rate linux">$0.16 per hour</td><td class="rate mswin">$0.24 per hour</td>
+        </tr><tr class="sizes">
+          <td class="size">Extra Large</td>
+          <td class="rate yrTerm1">$1820 </td><td class="rate yrTerm3">$2800 </td><td class="rate linux">$0.32 per hour</td><td class="rate mswin">$0.48 per hour</td>
+        </tr>
+      </tbody><tbody class="body">
+        <tr class="heading">
+          <th class="type" colspan="5">Micro Reserved Instances</th>
+        </tr>
+        <tr class="sizes">
+          <td class="size">Micro</td>
+          <td class="rate yrTerm1">$54 </td><td class="rate yrTerm3">$82 </td><td class="rate linux">$0.01 per hour</td><td class="rate mswin">$0.016 per hour</td>
+        </tr>
+      </tbody><tbody class="body">
+        <tr class="heading">
+          <th class="type" colspan="5">High-Memory Reserved Instances</th>
+        </tr>
+        <tr class="sizes">
+          <td class="size">Extra Large</td>
+          <td class="rate yrTerm1">$1325 </td><td class="rate yrTerm3">$2000 </td><td class="rate linux">$0.24 per hour</td><td class="rate mswin">$0.32 per hour</td>
+        </tr><tr class="sizes">
+          <td class="size">Double Extra Large</td>
+          <td class="rate yrTerm1">$2650 </td><td class="rate yrTerm3">$4000 </td><td class="rate linux">$0.48 per hour</td><td class="rate mswin">$0.64 per hour</td>
+        </tr><tr class="sizes">
+          <td class="size">Quadruple Extra Large</td>
+          <td class="rate yrTerm1">$5300 </td><td class="rate yrTerm3">$8000 </td><td class="rate linux">$0.96 per hour</td><td class="rate mswin">$1.28 per hour</td>
+        </tr>
+      </tbody><tbody class="body">
+        <tr class="heading">
+          <th class="type" colspan="5">High-CPU Reserved Instances</th>
+        </tr>
+        <tr class="sizes">
+          <td class="size">Medium</td>
+          <td class="rate yrTerm1">$455 </td><td class="rate yrTerm3">$700 </td><td class="rate linux">$0.08 per hour</td><td class="rate mswin">$0.145 per hour</td>
+        </tr><tr class="sizes">
+          <td class="size">Extra Large</td>
+          <td class="rate yrTerm1">$1820 </td><td class="rate yrTerm3">$2800 </td><td class="rate linux">$0.32 per hour</td><td class="rate mswin">$0.58 per hour</td>
+        </tr>
+      </tbody><tbody class="body">
+        <tr class="heading">
+          <th class="type" colspan="5">Cluster Compute Reserved Instances</th>
+        </tr>
+        <tr class="sizes">
+          <td class="size">Quadruple Extra Large</td>
+          <td class="rate yrTerm1">N/A*</td><td class="rate yrTerm3">N/A*</td><td class="rate linux">N/A*</td><td class="rate mswin">N/A*</td>
+        </tr>
+      </tbody><tbody class="body">
+        <tr class="heading">
+          <th class="type" colspan="5">Cluster GPU Reserved Instances</th>
+        </tr>
+        <tr class="sizes">
+          <td class="size">Quadruple Extra Large</td>
+          <td class="rate yrTerm1">N/A*</td><td class="rate yrTerm3">N/A*</td><td class="rate linux">N/A*</td><td class="rate mswin">N/A*</td>
+        </tr>
+      </tbody>
+      <tbody class="footnotes">
+        <tr>
+          <td colspan="5"><code>*</code> Cluster Compute and Cluster GPU Instances are currently only available in the US East (Virginia) Region.</td>
+        </tr>
+      </tbody>
+    </table>
+  </div><div style="display: none; " class="content reg-apac-tokyo">
+    <table class="tan-table">
+      <caption>Asia Pacific (Tokyo)</caption>
+      <thead>
+        <tr>
+          <th></th>
+          <th class="rate">1 yr Term</th><th class="rate">3 yr Term</th><th class="rate">Linux/UNIX Usage</th><th class="rate">Windows Usage</th>
+        </tr>
+      </thead>
+      <tbody class="body">
+        <tr class="heading">
+          <th class="type" colspan="5">Standard Reserved Instances</th>
+        </tr>
+        <tr class="sizes">
+          <td class="size">Small (Default)</td>
+          <td class="rate yrTerm1">$239 </td><td class="rate yrTerm3">$368 </td><td class="rate linux">$0.045 per hour</td><td class="rate mswin">$0.065 per hour</td>
+        </tr><tr class="sizes">
+          <td class="size">Large</td>
+          <td class="rate yrTerm1">$956 </td><td class="rate yrTerm3">$1470 </td><td class="rate linux">$0.18 per hour</td><td class="rate mswin">$0.26 per hour</td>
+        </tr><tr class="sizes">
+          <td class="size">Extra Large</td>
+          <td class="rate yrTerm1">$1911 </td><td class="rate yrTerm3">$2940 </td><td class="rate linux">$0.36 per hour</td><td class="rate mswin">$0.52 per hour</td>
+        </tr>
+      </tbody><tbody class="body">
+        <tr class="heading">
+          <th class="type" colspan="5">Micro Reserved Instances</th>
+        </tr>
+        <tr class="sizes">
+          <td class="size">Micro</td>
+          <td class="rate yrTerm1">$57 </td><td class="rate yrTerm3">$86 </td><td class="rate linux">$0.011 per hour</td><td class="rate mswin">$0.021 per hour</td>
+        </tr>
+      </tbody><tbody class="body">
+        <tr class="heading">
+          <th class="type" colspan="5">High-Memory Reserved Instances</th>
+        </tr>
+        <tr class="sizes">
+          <td class="size">Extra Large</td>
+          <td class="rate yrTerm1">$1391 </td><td class="rate yrTerm3">$2100 </td><td class="rate linux">$0.27 per hour</td><td class="rate mswin">$0.34 per hour</td>
+        </tr><tr class="sizes">
+          <td class="size">Double Extra Large</td>
+          <td class="rate yrTerm1">$2783 </td><td class="rate yrTerm3">$4200 </td><td class="rate linux">$0.54 per hour</td><td class="rate mswin">$0.68 per hour</td>
+        </tr><tr class="sizes">
+          <td class="size">Quadruple Extra Large</td>
+          <td class="rate yrTerm1">$5565 </td><td class="rate yrTerm3">$8400 </td><td class="rate linux">$1.07 per hour</td><td class="rate mswin">$1.36 per hour</td>
+        </tr>
+      </tbody><tbody class="body">
+        <tr class="heading">
+          <th class="type" colspan="5">High-CPU Reserved Instances</th>
+        </tr>
+        <tr class="sizes">
+          <td class="size">Medium</td>
+          <td class="rate yrTerm1">$478 </td><td class="rate yrTerm3">$735 </td><td class="rate linux">$0.09 per hour</td><td class="rate mswin">$0.16 per hour</td>
+        </tr><tr class="sizes">
+          <td class="size">Extra Large</td>
+          <td class="rate yrTerm1">$1911 </td><td class="rate yrTerm3">$2940 </td><td class="rate linux">$0.36 per hour</td><td class="rate mswin">$0.64 per hour</td>
+        </tr>
+      </tbody><tbody class="body">
+        <tr class="heading">
+          <th class="type" colspan="5">Cluster Compute Reserved Instances</th>
+        </tr>
+        <tr class="sizes">
+          <td class="size">Quadruple Extra Large</td>
+          <td class="rate yrTerm1">N/A*</td><td class="rate yrTerm3">N/A*</td><td class="rate linux">N/A*</td><td class="rate mswin">N/A*</td>
+        </tr>
+      </tbody><tbody class="body">
+        <tr class="heading">
+          <th class="type" colspan="5">Cluster GPU Reserved Instances</th>
+        </tr>
+        <tr class="sizes">
+          <td class="size">Quadruple Extra Large</td>
+          <td class="rate yrTerm1">N/A*</td><td class="rate yrTerm3">N/A*</td><td class="rate linux">N/A*</td><td class="rate mswin">N/A*</td>
+        </tr>
+      </tbody>
+      <tbody class="footnotes">
+        <tr>
+          <td colspan="5"><code>*</code> Cluster Compute and Cluster GPU Instances are currently only available in the US East (Virginia) Region.</td>
+        </tr>
+      </tbody>
+    </table>
+  </div></div></div>
+
+<p>
+  Reserved Instances can be purchased for 1 or 3 year terms, and the
+  one-time fee per instance is non-refundable.  Usage pricing is per
+  instance-hour consumed. Instance-hours are billed for the time that
+  instances are in a running state; if you do not run the instance in
+  an hour, there is zero usage charge. Partial instance-hours consumed
+  are billed as full hours.
+</p>
+
+<p>
+  If Microsoft chooses to increase the license fees that it charges
+  for Windows, we may correspondingly increase the per-hour usage rate
+  for previously purchased Reserved Instances with Windows. The
+  initial one-time payment for a Reserved Instance will be unaffected
+  in this situation. Any such changes would be made between Dec 1 –
+  Jan 31, and with at least 30 days’ notice. If the per-hour usage
+  rate does increase, you may continue to use your Reserved Instance
+  with Windows with the new per-hour usage rate, convert your Reserved
+  Instance with Windows to a Reserved Instance with Linux, or request
+  a pro rata refund of the upfront fee you paid for the Reserved
+  Instance with Windows.
+</p>
+
+<p>
+  Reserved Instances are available for Linux/UNIX, Windows and SUSE
+  Linux Enterprise operating systems. You can also optionally reserve
+  instances in Amazon VPC at the same prices as shown
+  above. <a href="/web/20110831155858/http://aws.amazon.com/ec2/reserved-instances/">Click here</a> to learn
+  more about Reserved Instances.
+</p>
+
+<h2>Spot Instances</h2>
+
+<p>
+  Spot Instances enable you to bid for unused Amazon EC2 capacity.
+  Instances are charged the Spot Price, which is set by Amazon EC2 and
+  fluctuates periodically depending on the supply of and demand for Spot
+  Instance capacity.  To use Spot Instances, you place a Spot Instance
+  request, specifying the instance type, the Availability Zone desired, the number
+  of Spot Instances you want to run, and the maximum price you are
+  willing to pay per instance hour.  To determine how that maximum price
+  compares to past Spot Prices, the Spot Price history is available via
+  the Amazon EC2 API and the AWS Management Console.  If your maximum
+  price bid exceeds the current Spot Price, your request is fulfilled
+  and your instances will run until either you choose to terminate them
+  or the Spot Price increases above your maximum price (whichever is
+  sooner).
+</p>
+
+<p>
+  <a href="/web/20110831155858/http://aws.amazon.com/ec2/spot-instances/">Click here</a> to learn more about
+  Spot Instances.  For information on how to get
+  started, <a href="http://web.archive.org/web/20110831155858/http://developer.amazonwebservices.com/connect/entry.jspa?externalID=3260">click
+  here</a>.
+</p>
+
+<p>
+  The following table displays the Lowest Spot Price per Region and instance
+  type (updated every 5 minutes). In addition to Linux/Unix and
+  Windows, we also offer Spot Instances for <a href="/web/20110831155858/http://aws.amazon.com/suse/">Amazon EC2
+  running SUSE Linux Enterprise Server</a>. 
+</p>
+
+
+
+<div id="spotPricing" class="pricingTable"><div class="progress error"><span class="sprite"></span>Sorry, an error was encountered while retrieving pricing data.<span class="tryAgain"> (<a href="#" class="reload">Try Again</a>)</span></div>
+  <noscript>
+    Sorry, pricing information requires JavaScript.
+  </noscript>
+</div>
+
+<p>
+  If you would like to go straight to a view of the latest Spot Instance pricing:
+</p>
+
+<ol>
+  <li><a href="/web/20110831155858/http://aws.amazon.com/console/">Log in</a> to the AWS Management Console, then click the “Amazon EC2” tab.</li>
+  <li>Click on “Spot Requests” in the navigation pane on the left.</li>
+  <li>Click on “Pricing History” to open a view of pricing selectable by instance type.</li>
+</ol>
+
+<h2>Data Transfer**</h2>
+
+<h3>Internet Data Transfer</h3>
+
+<p>
+  The pricing below is based on data transferred "in" and
+  "out" of Amazon EC2.
+</p>
+
+<div id="dataXferPricing" class="pricingTable"><div class="controls"><div class="reg">Region:<select><option value="reg-us-east">US East (Virginia)</option><option value="reg-us-west">US West (Northern California)</option><option value="reg-eu-ireland">EU (Ireland)</option><option value="reg-apac-sin">Asia Pacific (Singapore)</option><option value="reg-apac-tokyo">Asia Pacific (Tokyo)</option></select></div><div class="currency" style="visibility: hidden; ">Currency:<select><option value="USD">$&nbsp;&nbsp;US Dollar</option></select></div></div><div class="puretmpl"><div class="progress loading" style="display: none; "></div>
+  <noscript>
+    Sorry, pricing information requires JavaScript.
+  </noscript>
+  <div style="" class="content reg-us-east">
+        <table class="tan-table">
+      <caption>US East (Virginia)</caption>
+      <thead>
+        <tr class="centered">
+          <th></th>
+          <th class="type">Pricing</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="heading">
+          <th colspan="2" class="type">Data Transfer IN</th>
+        </tr>
+        <tr class="tiers">
+          <td class="tier">All data transfer in</td>
+          <td class="price" style="text-align: center">$0.000 per GB</td>
+        </tr>
+      </tbody><tbody>
+        <tr class="heading">
+          <th colspan="2" class="type">Data Transfer OUT</th>
+        </tr>
+        <tr class="tiers">
+          <td class="tier">First 1 GB / month</td>
+          <td class="price" style="text-align: center">$0.000 per GB</td>
+        </tr><tr class="tiers">
+          <td class="tier">Up to 10 TB / month</td>
+          <td class="price" style="text-align: center">$0.120 per GB</td>
+        </tr><tr class="tiers">
+          <td class="tier">Next 40 TB / month</td>
+          <td class="price" style="text-align: center">$0.090 per GB</td>
+        </tr><tr class="tiers">
+          <td class="tier">Next 100 TB / month</td>
+          <td class="price" style="text-align: center">$0.070 per GB</td>
+        </tr><tr class="tiers">
+          <td class="tier">Next 350 TB / month</td>
+          <td class="price" style="text-align: center">$0.050 per GB</td>
+        </tr><tr class="tiers">
+          <td class="tier">Next 524 TB / month</td>
+          <td class="price" style="text-align: center"><a href="/web/20110831155858/http://aws.amazon.com/contact-us/aws-sales/">Contact Us</a></td>
+        </tr><tr class="tiers">
+          <td class="tier">Next 4 PB / month</td>
+          <td class="price" style="text-align: center"><a href="/web/20110831155858/http://aws.amazon.com/contact-us/aws-sales/">Contact Us</a></td>
+        </tr><tr class="tiers">
+          <td class="tier">Greater than 5 PB / month</td>
+          <td class="price" style="text-align: center"><a href="/web/20110831155858/http://aws.amazon.com/contact-us/aws-sales/">Contact Us</a></td>
+        </tr>
+      </tbody>
+    </table>
+
+
+    <div class="subcontent" style="padding: 10px;">
+      <p>
+        There is no Data Transfer charge between Amazon EC2 and other
+        Amazon Web Services within the same region (i.e. between
+        Amazon EC2 US West and Amazon S3 in US West). Data transferred
+        between Amazon EC2 instances located in different Availability
+        Zones in the same Region will be charged Regional Data
+        Transfer.  Data transferred between AWS services in different
+        regions will be charged as Internet Data Transfer on both
+        sides of the transfer.
+      </p>
+
+      <p>
+        Usage for other Amazon Web Services is billed separately from
+        Amazon EC2.
+      </p>
+
+      <h3>Availability Zone Data Transfer</h3>
+
+      <ul>
+	    <li>
+          <span class="azDataTransferPrice">$0.00 per GB</span>
+          – all data transferred between instances in the same
+          Availability Zone using private IP addresses.
+        </li>
+      </ul>
+
+      <h3>Regional Data Transfer</h3>
+
+      <ul>
+	    <li>
+          <span class="regionalTransferPrice">$0.01 per GB</span> – all data
+          transferred between instances in different
+          Availability Zones in the same region.
+        </li>
+      </ul>
+
+      <h3>Public and Elastic IP and Elastic Load Balancing Data Transfer</h3>
+
+      <ul>
+	    <li>
+          <span class="elasticLBTransferPrice">$0.01 per GB in/out</span> – If you choose
+          to communicate using your Public or Elastic IP address or
+          Elastic Load Balancer inside of the Amazon EC2 network,
+          you’ll pay Regional Data Transfer rates even if the
+          instances are in the same Availability Zone.  For data
+          transfer within the same Availability Zone, you can easily
+          avoid this charge (and get better network performance) by
+          using your private IP whenever possible.
+        </li>
+      </ul>
+    </div>
+  </div><div style="display: none; " class="content reg-us-west">
+        <table class="tan-table">
+      <caption>US West (Northern California)</caption>
+      <thead>
+        <tr class="centered">
+          <th></th>
+          <th class="type">Pricing</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="heading">
+          <th colspan="2" class="type">Data Transfer IN</th>
+        </tr>
+        <tr class="tiers">
+          <td class="tier">All data transfer in</td>
+          <td class="price" style="text-align: center">$0.000 per GB</td>
+        </tr>
+      </tbody><tbody>
+        <tr class="heading">
+          <th colspan="2" class="type">Data Transfer OUT</th>
+        </tr>
+        <tr class="tiers">
+          <td class="tier">First 1 GB / month</td>
+          <td class="price" style="text-align: center">$0.000 per GB</td>
+        </tr><tr class="tiers">
+          <td class="tier">Up to 10 TB / month</td>
+          <td class="price" style="text-align: center">$0.120 per GB</td>
+        </tr><tr class="tiers">
+          <td class="tier">Next 40 TB / month</td>
+          <td class="price" style="text-align: center">$0.090 per GB</td>
+        </tr><tr class="tiers">
+          <td class="tier">Next 100 TB / month</td>
+          <td class="price" style="text-align: center">$0.070 per GB</td>
+        </tr><tr class="tiers">
+          <td class="tier">Next 350 TB / month</td>
+          <td class="price" style="text-align: center">$0.050 per GB</td>
+        </tr><tr class="tiers">
+          <td class="tier">Next 524 TB / month</td>
+          <td class="price" style="text-align: center"><a href="/web/20110831155858/http://aws.amazon.com/contact-us/aws-sales/">Contact Us</a></td>
+        </tr><tr class="tiers">
+          <td class="tier">Next 4 PB / month</td>
+          <td class="price" style="text-align: center"><a href="/web/20110831155858/http://aws.amazon.com/contact-us/aws-sales/">Contact Us</a></td>
+        </tr><tr class="tiers">
+          <td class="tier">Greater than 5 PB / month</td>
+          <td class="price" style="text-align: center"><a href="/web/20110831155858/http://aws.amazon.com/contact-us/aws-sales/">Contact Us</a></td>
+        </tr>
+      </tbody>
+    </table>
+
+
+    <div class="subcontent" style="padding: 10px;">
+      <p>
+        There is no Data Transfer charge between Amazon EC2 and other
+        Amazon Web Services within the same region (i.e. between
+        Amazon EC2 US West and Amazon S3 in US West). Data transferred
+        between Amazon EC2 instances located in different Availability
+        Zones in the same Region will be charged Regional Data
+        Transfer.  Data transferred between AWS services in different
+        regions will be charged as Internet Data Transfer on both
+        sides of the transfer.
+      </p>
+
+      <p>
+        Usage for other Amazon Web Services is billed separately from
+        Amazon EC2.
+      </p>
+
+      <h3>Availability Zone Data Transfer</h3>
+
+      <ul>
+	    <li>
+          <span class="azDataTransferPrice">$0.00 per GB</span>
+          – all data transferred between instances in the same
+          Availability Zone using private IP addresses.
+        </li>
+      </ul>
+
+      <h3>Regional Data Transfer</h3>
+
+      <ul>
+	    <li>
+          <span class="regionalTransferPrice">$0.01 per GB</span> – all data
+          transferred between instances in different
+          Availability Zones in the same region.
+        </li>
+      </ul>
+
+      <h3>Public and Elastic IP and Elastic Load Balancing Data Transfer</h3>
+
+      <ul>
+	    <li>
+          <span class="elasticLBTransferPrice">$0.01 per GB in/out</span> – If you choose
+          to communicate using your Public or Elastic IP address or
+          Elastic Load Balancer inside of the Amazon EC2 network,
+          you’ll pay Regional Data Transfer rates even if the
+          instances are in the same Availability Zone.  For data
+          transfer within the same Availability Zone, you can easily
+          avoid this charge (and get better network performance) by
+          using your private IP whenever possible.
+        </li>
+      </ul>
+    </div>
+  </div><div style="display: none; " class="content reg-eu-ireland">
+        <table class="tan-table">
+      <caption>EU (Ireland)</caption>
+      <thead>
+        <tr class="centered">
+          <th></th>
+          <th class="type">Pricing</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="heading">
+          <th colspan="2" class="type">Data Transfer IN</th>
+        </tr>
+        <tr class="tiers">
+          <td class="tier">All data transfer in</td>
+          <td class="price" style="text-align: center">$0.000 per GB</td>
+        </tr>
+      </tbody><tbody>
+        <tr class="heading">
+          <th colspan="2" class="type">Data Transfer OUT</th>
+        </tr>
+        <tr class="tiers">
+          <td class="tier">First 1 GB / month</td>
+          <td class="price" style="text-align: center">$0.000 per GB</td>
+        </tr><tr class="tiers">
+          <td class="tier">Up to 10 TB / month</td>
+          <td class="price" style="text-align: center">$0.120 per GB</td>
+        </tr><tr class="tiers">
+          <td class="tier">Next 40 TB / month</td>
+          <td class="price" style="text-align: center">$0.090 per GB</td>
+        </tr><tr class="tiers">
+          <td class="tier">Next 100 TB / month</td>
+          <td class="price" style="text-align: center">$0.070 per GB</td>
+        </tr><tr class="tiers">
+          <td class="tier">Next 350 TB / month</td>
+          <td class="price" style="text-align: center">$0.050 per GB</td>
+        </tr><tr class="tiers">
+          <td class="tier">Next 524 TB / month</td>
+          <td class="price" style="text-align: center"><a href="/web/20110831155858/http://aws.amazon.com/contact-us/aws-sales/">Contact Us</a></td>
+        </tr><tr class="tiers">
+          <td class="tier">Next 4 PB / month</td>
+          <td class="price" style="text-align: center"><a href="/web/20110831155858/http://aws.amazon.com/contact-us/aws-sales/">Contact Us</a></td>
+        </tr><tr class="tiers">
+          <td class="tier">Greater than 5 PB / month</td>
+          <td class="price" style="text-align: center"><a href="/web/20110831155858/http://aws.amazon.com/contact-us/aws-sales/">Contact Us</a></td>
+        </tr>
+      </tbody>
+    </table>
+
+
+    <div class="subcontent" style="padding: 10px;">
+      <p>
+        There is no Data Transfer charge between Amazon EC2 and other
+        Amazon Web Services within the same region (i.e. between
+        Amazon EC2 US West and Amazon S3 in US West). Data transferred
+        between Amazon EC2 instances located in different Availability
+        Zones in the same Region will be charged Regional Data
+        Transfer.  Data transferred between AWS services in different
+        regions will be charged as Internet Data Transfer on both
+        sides of the transfer.
+      </p>
+
+      <p>
+        Usage for other Amazon Web Services is billed separately from
+        Amazon EC2.
+      </p>
+
+      <h3>Availability Zone Data Transfer</h3>
+
+      <ul>
+	    <li>
+          <span class="azDataTransferPrice">$0.00 per GB</span>
+          – all data transferred between instances in the same
+          Availability Zone using private IP addresses.
+        </li>
+      </ul>
+
+      <h3>Regional Data Transfer</h3>
+
+      <ul>
+	    <li>
+          <span class="regionalTransferPrice">$0.01 per GB</span> – all data
+          transferred between instances in different
+          Availability Zones in the same region.
+        </li>
+      </ul>
+
+      <h3>Public and Elastic IP and Elastic Load Balancing Data Transfer</h3>
+
+      <ul>
+	    <li>
+          <span class="elasticLBTransferPrice">$0.01 per GB in/out</span> – If you choose
+          to communicate using your Public or Elastic IP address or
+          Elastic Load Balancer inside of the Amazon EC2 network,
+          you’ll pay Regional Data Transfer rates even if the
+          instances are in the same Availability Zone.  For data
+          transfer within the same Availability Zone, you can easily
+          avoid this charge (and get better network performance) by
+          using your private IP whenever possible.
+        </li>
+      </ul>
+    </div>
+  </div><div style="display: none; " class="content reg-apac-sin">
+        <table class="tan-table">
+      <caption>Asia Pacific (Singapore)</caption>
+      <thead>
+        <tr class="centered">
+          <th></th>
+          <th class="type">Pricing</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="heading">
+          <th colspan="2" class="type">Data Transfer IN</th>
+        </tr>
+        <tr class="tiers">
+          <td class="tier">All data transfer in</td>
+          <td class="price" style="text-align: center">$0.000 per GB</td>
+        </tr>
+      </tbody><tbody>
+        <tr class="heading">
+          <th colspan="2" class="type">Data Transfer OUT</th>
+        </tr>
+        <tr class="tiers">
+          <td class="tier">First 1 GB / month</td>
+          <td class="price" style="text-align: center">$0.000 per GB</td>
+        </tr><tr class="tiers">
+          <td class="tier">Up to 10 TB / month</td>
+          <td class="price" style="text-align: center">$0.190 per GB</td>
+        </tr><tr class="tiers">
+          <td class="tier">Next 40 TB / month</td>
+          <td class="price" style="text-align: center">$0.150 per GB</td>
+        </tr><tr class="tiers">
+          <td class="tier">Next 100 TB / month</td>
+          <td class="price" style="text-align: center">$0.130 per GB</td>
+        </tr><tr class="tiers">
+          <td class="tier">Next 350 TB / month</td>
+          <td class="price" style="text-align: center">$0.120 per GB</td>
+        </tr><tr class="tiers">
+          <td class="tier">Next 524 TB / month</td>
+          <td class="price" style="text-align: center"><a href="/web/20110831155858/http://aws.amazon.com/contact-us/aws-sales/">Contact Us</a></td>
+        </tr><tr class="tiers">
+          <td class="tier">Next 4 PB / month</td>
+          <td class="price" style="text-align: center"><a href="/web/20110831155858/http://aws.amazon.com/contact-us/aws-sales/">Contact Us</a></td>
+        </tr><tr class="tiers">
+          <td class="tier">Greater than 5 PB / month</td>
+          <td class="price" style="text-align: center"><a href="/web/20110831155858/http://aws.amazon.com/contact-us/aws-sales/">Contact Us</a></td>
+        </tr>
+      </tbody>
+    </table>
+
+
+    <div class="subcontent" style="padding: 10px;">
+      <p>
+        There is no Data Transfer charge between Amazon EC2 and other
+        Amazon Web Services within the same region (i.e. between
+        Amazon EC2 US West and Amazon S3 in US West). Data transferred
+        between Amazon EC2 instances located in different Availability
+        Zones in the same Region will be charged Regional Data
+        Transfer.  Data transferred between AWS services in different
+        regions will be charged as Internet Data Transfer on both
+        sides of the transfer.
+      </p>
+
+      <p>
+        Usage for other Amazon Web Services is billed separately from
+        Amazon EC2.
+      </p>
+
+      <h3>Availability Zone Data Transfer</h3>
+
+      <ul>
+	    <li>
+          <span class="azDataTransferPrice">$0.00 per GB</span>
+          – all data transferred between instances in the same
+          Availability Zone using private IP addresses.
+        </li>
+      </ul>
+
+      <h3>Regional Data Transfer</h3>
+
+      <ul>
+	    <li>
+          <span class="regionalTransferPrice">$0.01 per GB</span> – all data
+          transferred between instances in different
+          Availability Zones in the same region.
+        </li>
+      </ul>
+
+      <h3>Public and Elastic IP and Elastic Load Balancing Data Transfer</h3>
+
+      <ul>
+	    <li>
+          <span class="elasticLBTransferPrice">$0.01 per GB in/out</span> – If you choose
+          to communicate using your Public or Elastic IP address or
+          Elastic Load Balancer inside of the Amazon EC2 network,
+          you’ll pay Regional Data Transfer rates even if the
+          instances are in the same Availability Zone.  For data
+          transfer within the same Availability Zone, you can easily
+          avoid this charge (and get better network performance) by
+          using your private IP whenever possible.
+        </li>
+      </ul>
+    </div>
+  </div><div style="display: none; " class="content reg-apac-tokyo">
+        <table class="tan-table">
+      <caption>Asia Pacific (Tokyo)</caption>
+      <thead>
+        <tr class="centered">
+          <th></th>
+          <th class="type">Pricing</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="heading">
+          <th colspan="2" class="type">Data Transfer IN</th>
+        </tr>
+        <tr class="tiers">
+          <td class="tier">All data transfer in</td>
+          <td class="price" style="text-align: center">$0.000 per GB</td>
+        </tr>
+      </tbody><tbody>
+        <tr class="heading">
+          <th colspan="2" class="type">Data Transfer OUT</th>
+        </tr>
+        <tr class="tiers">
+          <td class="tier">First 1 GB / month</td>
+          <td class="price" style="text-align: center">$0.000 per GB</td>
+        </tr><tr class="tiers">
+          <td class="tier">Up to 10 TB / month</td>
+          <td class="price" style="text-align: center">$0.201 per GB</td>
+        </tr><tr class="tiers">
+          <td class="tier">Next 40 TB / month</td>
+          <td class="price" style="text-align: center">$0.158 per GB</td>
+        </tr><tr class="tiers">
+          <td class="tier">Next 100 TB / month</td>
+          <td class="price" style="text-align: center">$0.137 per GB</td>
+        </tr><tr class="tiers">
+          <td class="tier">Next 350 TB / month</td>
+          <td class="price" style="text-align: center">$0.127 per GB</td>
+        </tr><tr class="tiers">
+          <td class="tier">Next 524 TB / month</td>
+          <td class="price" style="text-align: center"><a href="/web/20110831155858/http://aws.amazon.com/contact-us/aws-sales/">Contact Us</a></td>
+        </tr><tr class="tiers">
+          <td class="tier">Next 4 PB / month</td>
+          <td class="price" style="text-align: center"><a href="/web/20110831155858/http://aws.amazon.com/contact-us/aws-sales/">Contact Us</a></td>
+        </tr><tr class="tiers">
+          <td class="tier">Greater than 5 PB / month</td>
+          <td class="price" style="text-align: center"><a href="/web/20110831155858/http://aws.amazon.com/contact-us/aws-sales/">Contact Us</a></td>
+        </tr>
+      </tbody>
+    </table>
+
+
+    <div class="subcontent" style="padding: 10px;">
+      <p>
+        There is no Data Transfer charge between Amazon EC2 and other
+        Amazon Web Services within the same region (i.e. between
+        Amazon EC2 US West and Amazon S3 in US West). Data transferred
+        between Amazon EC2 instances located in different Availability
+        Zones in the same Region will be charged Regional Data
+        Transfer.  Data transferred between AWS services in different
+        regions will be charged as Internet Data Transfer on both
+        sides of the transfer.
+      </p>
+
+      <p>
+        Usage for other Amazon Web Services is billed separately from
+        Amazon EC2.
+      </p>
+
+      <h3>Availability Zone Data Transfer</h3>
+
+      <ul>
+	    <li>
+          <span class="azDataTransferPrice">$0.00 per GB</span>
+          – all data transferred between instances in the same
+          Availability Zone using private IP addresses.
+        </li>
+      </ul>
+
+      <h3>Regional Data Transfer</h3>
+
+      <ul>
+	    <li>
+          <span class="regionalTransferPrice">$0.01 per GB</span> – all data
+          transferred between instances in different
+          Availability Zones in the same region.
+        </li>
+      </ul>
+
+      <h3>Public and Elastic IP and Elastic Load Balancing Data Transfer</h3>
+
+      <ul>
+	    <li>
+          <span class="elasticLBTransferPrice">$0.01 per GB in/out</span> – If you choose
+          to communicate using your Public or Elastic IP address or
+          Elastic Load Balancer inside of the Amazon EC2 network,
+          you’ll pay Regional Data Transfer rates even if the
+          instances are in the same Availability Zone.  For data
+          transfer within the same Availability Zone, you can easily
+          avoid this charge (and get better network performance) by
+          using your private IP whenever possible.
+        </li>
+      </ul>
+    </div>
+  </div>
+</div></div>
+
+<h2>Amazon Elastic Block Store</h2>
+<div id="ebsPricing" class="pricingTable padContent"><div class="controls"><div class="reg">Region:<select><option value="reg-us-east">US East (Virginia)</option><option value="reg-us-west">US West (Northern California)</option><option value="reg-eu-ireland">EU (Ireland)</option><option value="reg-apac-sin">Asia Pacific (Singapore)</option><option value="reg-apac-tokyo">Asia Pacific (Tokyo)</option></select></div><div class="currency" style="visibility: hidden; ">Currency:<select><option value="USD">$&nbsp;&nbsp;US Dollar</option></select></div></div><div class="puretmpl"><div class="progress loading" style="display: none; "></div>
+  <noscript>
+    Sorry, pricing information requires JavaScript.
+  </noscript>
+<div class="regions">
+    <div class="content reg-us-east" title="US East (Virginia)">
+      <div class="type">
+        <h3>Amazon EBS Volumes</h3>
+
+        <ul>
+          <li>$0.10 per GB-month of provisioned storage</li><li>$0.10 per 1 million I/O requests</li>
+        </ul>
+      </div><div class="type">
+        <h3>Amazon EBS Snapshots to Amazon S3</h3>
+
+        <ul>
+          <li>$0.15 per GB-month of data stored</li><li>$0.01 per 1,000 PUT requests (when saving a snapshot)</li><li>$0.01 per 10,000 GET requests (when loading a snapshot)</li>
+        </ul>
+      </div>
+    </div><div class="content reg-us-west" title="US West (Northern California)" style="display: none; ">
+      <div class="type">
+        <h3>Amazon EBS Volumes</h3>
+
+        <ul>
+          <li>$0.11 per GB-month of provisioned storage</li><li>$0.11 per 1 million I/O requests</li>
+        </ul>
+      </div><div class="type">
+        <h3>Amazon EBS Snapshots to Amazon S3</h3>
+
+        <ul>
+          <li>$0.18 per GB-month of data stored</li><li>$0.012 per 1,000 PUT requests (when saving a snapshot)</li><li>$0.012 per 10,000 GET requests (when loading a snapshot)</li>
+        </ul>
+      </div>
+    </div><div class="content reg-eu-ireland" title="EU (Ireland)" style="display: none; ">
+      <div class="type">
+        <h3>Amazon EBS Volumes</h3>
+
+        <ul>
+          <li>$0.11 per GB-month of provisioned storage</li><li>$0.11 per 1 million I/O requests</li>
+        </ul>
+      </div><div class="type">
+        <h3>Amazon EBS Snapshots to Amazon S3</h3>
+
+        <ul>
+          <li>$0.15 per GB-month of data stored</li><li>$0.01 per 1,000 PUT requests (when saving a snapshot)</li><li>$0.01 per 10,000 GET requests (when loading a snapshot)</li>
+        </ul>
+      </div>
+    </div><div class="content reg-apac-sin" title="Asia Pacific (Singapore)" style="display: none; ">
+      <div class="type">
+        <h3>Amazon EBS Volumes</h3>
+
+        <ul>
+          <li>$0.11 per GB-month of provisioned storage</li><li>$0.11 per 1 million I/O requests</li>
+        </ul>
+      </div><div class="type">
+        <h3>Amazon EBS Snapshots to Amazon S3</h3>
+
+        <ul>
+          <li>$0.15 per GB-month of data stored</li><li>$0.01 per 1,000 PUT requests (when saving a snapshot)</li><li>$0.01 per 10,000 GET requests (when loading a snapshot)</li>
+        </ul>
+      </div>
+    </div><div class="content reg-apac-tokyo" title="Asia Pacific (Tokyo)" style="display: none; ">
+      <div class="type">
+        <h3>Amazon EBS Volumes</h3>
+
+        <ul>
+          <li>$0.12 per GB-month of provisioned storage</li><li>$0.12 per 1 million I/O requests</li>
+        </ul>
+      </div><div class="type">
+        <h3>Amazon EBS Snapshots to Amazon S3</h3>
+
+        <ul>
+          <li>$0.16 per GB-month of data stored</li><li>$0.011 per 1,000 PUT requests (when saving a snapshot)</li><li>$0.011 per 10,000 GET requests (when loading a snapshot)</li>
+        </ul>
+      </div>
+    </div>
+  </div></div></div>
+
+<h2>Elastic IP Addresses</h2>
+
+<div id="elasticIPAddressPricing" class="pricingTable padContent"><div class="controls"><div class="reg">Region:<select><option value="reg-us-east">US East (Virginia)</option><option value="reg-us-west">US West (Northern California)</option><option value="reg-eu-ireland">EU (Ireland)</option><option value="reg-apac-sin">Asia Pacific (Singapore)</option><option value="reg-apac-tokyo">Asia Pacific (Tokyo)</option></select></div><div class="currency" style="visibility: hidden; ">Currency:<select><option value="USD">$&nbsp;&nbsp;US Dollar</option></select></div></div><div class="puretmpl"><div class="progress loading" style="display: none; "></div>
+  <noscript>
+    Sorry, pricing information requires JavaScript.
+  </noscript>
+<div class="regions">
+    <div class="content reg-us-east" title="US East (Virginia)">
+      <div class="type">
+        <h3>No cost for Elastic IP addresses while in use</h3>
+
+        <ul>
+          <li>$0.01 per non-attached Elastic IP address per complete hour</li><li>$0.00 per Elastic IP address remap – first 100 remaps / month</li><li>$0.10 per Elastic IP address remap – additional remap / month over 100</li>
+        </ul>
+      </div>
+    </div><div class="content reg-us-west" title="US West (Northern California)" style="display: none; ">
+      <div class="type">
+        <h3>No cost for Elastic IP addresses while in use</h3>
+
+        <ul>
+          <li>$0.01 per non-attached Elastic IP address per complete hour</li><li>$0.00 per Elastic IP address remap – first 100 remaps / month</li><li>$0.10 per Elastic IP address remap – additional remap / month over 100</li>
+        </ul>
+      </div>
+    </div><div class="content reg-eu-ireland" title="EU (Ireland)" style="display: none; ">
+      <div class="type">
+        <h3>No cost for Elastic IP addresses while in use</h3>
+
+        <ul>
+          <li>$0.01 per non-attached Elastic IP address per complete hour</li><li>$0.00 per Elastic IP address remap – first 100 remaps / month</li><li>$0.10 per Elastic IP address remap – additional remap / month over 100</li>
+        </ul>
+      </div>
+    </div><div class="content reg-apac-sin" title="Asia Pacific (Singapore)" style="display: none; ">
+      <div class="type">
+        <h3>No cost for Elastic IP addresses while in use</h3>
+
+        <ul>
+          <li>$0.01 per non-attached Elastic IP address per complete hour</li><li>$0.00 per Elastic IP address remap – first 100 remaps / month</li><li>$0.10 per Elastic IP address remap – additional remap / month over 100</li>
+        </ul>
+      </div>
+    </div><div class="content reg-apac-tokyo" title="Asia Pacific (Tokyo)" style="display: none; ">
+      <div class="type">
+        <h3>No cost for Elastic IP addresses while in use</h3>
+
+        <ul>
+          <li>$0.01 per non-attached Elastic IP address per complete hour</li><li>$0.00 per Elastic IP address remap – first 100 remaps / month</li><li>$0.10 per Elastic IP address remap – additional remap / month over 100</li>
+        </ul>
+      </div>
+    </div>
+  </div></div></div>
+
+<h2>Amazon CloudWatch</h2>
+
+<div id="cloudWatchPricing" class="pricingTable padContent"><div class="controls"><div class="reg">Region:<select><option value="reg-us-east">US East (Virginia)</option><option value="reg-us-west">US West (Northern California)</option><option value="reg-eu-ireland">EU (Ireland)</option><option value="reg-apac-sin">Asia Pacific (Singapore)</option><option value="reg-apac-tokyo">Asia Pacific (Tokyo)</option></select></div><div class="currency" style="visibility: hidden; ">Currency:<select><option value="USD">$&nbsp;&nbsp;US Dollar</option></select></div></div><div class="puretmpl"><div class="progress loading" style="display: none; "></div>
+  <noscript>
+    Sorry, pricing information requires JavaScript.
+  </noscript>
+<div class="regions">
+    <div class="content reg-us-east" title="US East (Virginia)">
+      <div class="type">
+        <h3>Detailed Monitoring for Amazon EC2 Instances</h3>
+
+        <ul>
+          <li>$3.50 per instance per month, provided at 1-minute frequency</li>
+        </ul>
+      </div><div class="type">
+        <h3>Basic Monitoring for Amazon EC2 instances</h3>
+
+        <ul>
+          <li>$0.00 (free of charge) per instance per month, provided at 5-minute frequency</li>
+        </ul>
+      </div><div class="type">
+        <h3>Monitoring for Custom Metrics</h3>
+
+        <ul>
+          <li>$0.50 per metric per month</li>
+        </ul>
+      </div>
+    </div><div class="content reg-us-west" title="US West (Northern California)" style="display: none; ">
+      <div class="type">
+        <h3>Detailed Monitoring for Amazon EC2 Instances</h3>
+
+        <ul>
+          <li>$3.50 per instance per month, provided at 1-minute frequency</li>
+        </ul>
+      </div><div class="type">
+        <h3>Basic Monitoring for Amazon EC2 instances</h3>
+
+        <ul>
+          <li>$0.00 (free of charge) per instance per month, provided at 5-minute frequency</li>
+        </ul>
+      </div><div class="type">
+        <h3>Monitoring for Custom Metrics</h3>
+
+        <ul>
+          <li>$0.50 per metric per month</li>
+        </ul>
+      </div>
+    </div><div class="content reg-eu-ireland" title="EU (Ireland)" style="display: none; ">
+      <div class="type">
+        <h3>Detailed Monitoring for Amazon EC2 Instances</h3>
+
+        <ul>
+          <li>$3.50 per instance per month, provided at 1-minute frequency</li>
+        </ul>
+      </div><div class="type">
+        <h3>Basic Monitoring for Amazon EC2 instances</h3>
+
+        <ul>
+          <li>$0.00 (free of charge) per instance per month, provided at 5-minute frequency</li>
+        </ul>
+      </div><div class="type">
+        <h3>Monitoring for Custom Metrics</h3>
+
+        <ul>
+          <li>$0.50 per metric per month</li>
+        </ul>
+      </div>
+    </div><div class="content reg-apac-sin" title="Asia Pacific (Singapore)" style="display: none; ">
+      <div class="type">
+        <h3>Detailed Monitoring for Amazon EC2 Instances</h3>
+
+        <ul>
+          <li>$3.50 per instance per month, provided at 1-minute frequency</li>
+        </ul>
+      </div><div class="type">
+        <h3>Basic Monitoring for Amazon EC2 instances</h3>
+
+        <ul>
+          <li>$0.00 (free of charge) per instance per month, provided at 5-minute frequency</li>
+        </ul>
+      </div><div class="type">
+        <h3>Monitoring for Custom Metrics</h3>
+
+        <ul>
+          <li>$0.50 per metric per month</li>
+        </ul>
+      </div>
+    </div><div class="content reg-apac-tokyo" title="Asia Pacific (Tokyo)" style="display: none; ">
+      <div class="type">
+        <h3>Detailed Monitoring for Amazon EC2 Instances</h3>
+
+        <ul>
+          <li>$3.675 per instance per month, provided at 1-minute frequency</li>
+        </ul>
+      </div><div class="type">
+        <h3>Basic Monitoring for Amazon EC2 instances</h3>
+
+        <ul>
+          <li>$0.00 (free of charge) per instance per month, provided at 5-minute frequency</li>
+        </ul>
+      </div><div class="type">
+        <h3>Monitoring for Custom Metrics</h3>
+
+        <ul>
+          <li>$0.525 per metric per month</li>
+        </ul>
+      </div>
+    </div>
+  </div></div></div>
+
+<p>
+Detailed Monitoring for Amazon EC2 is charged at standard Amazon CloudWatch rates of $0.50 per metric per month. Each instance includes seven metrics for total charges of $3.50 per month. Partial months are charged on an hourly pro rata basis, at approximately $0.005/instance-hour.</p>
+<p>
+<i>Note: This new pricing for Detailed Monitoring (representing a 68% decrease from the current price) takes effect starting June 1, 2011. Prior to that, the price remains $0.015 per instance-hour or partial hour. Pricing for Amazon CloudWatch Custom Metrics takes effect starting June 1, 2011. Custom metrics (that you send and Amazon CloudWatch monitors) before that time are free of charge.</i>
+
+</p>
+
+<p>
+  Learn more about <a href="/web/20110831155858/http://aws.amazon.com/cloudwatch/">Amazon Cloudwatch</a>.
+</p>
+
+<h2>Auto Scaling</h2>
+<p>Auto Scaling is enabled by Amazon CloudWatch and carries no
+  additional fees. Each instance launched by Auto Scaling is
+  automatically enabled for monitoring and the
+  applicable <a href="/web/20110831155858/http://aws.amazon.com/cloudwatch/">Amazon Cloudwatch</a> charges will
+  be applied.
+</p>
+
+<h2>Elastic Load Balancing</h2>
+<div id="elbPricing" class="pricingTable padContent"><div class="controls"><div class="reg">Region:<select><option value="reg-us-east">US East (Virginia)</option><option value="reg-us-west">US West (Northern California)</option><option value="reg-eu-ireland">EU (Ireland)</option><option value="reg-apac-sin">Asia Pacific (Singapore)</option><option value="reg-apac-tokyo">Asia Pacific (Tokyo)</option></select></div><div class="currency" style="visibility: hidden; ">Currency:<select><option value="USD">$&nbsp;&nbsp;US Dollar</option></select></div></div><div class="puretmpl"><div class="progress loading" style="display: none; "></div>
+  <noscript>
+    Sorry, pricing information requires JavaScript.
+  </noscript>
+<div class="regions">
+    <div class="content reg-us-east" title="US East (Virginia)">
+      <div class="type">
+        <h3></h3>
+
+        <ul>
+          <li>$0.025 per Elastic Load Balancer-hour (or partial hour)</li><li>$0.008 per GB of data processed by an Elastic Load Balancer</li>
+        </ul>
+      </div>
+    </div><div class="content reg-us-west" title="US West (Northern California)" style="display: none; ">
+      <div class="type">
+        <h3></h3>
+
+        <ul>
+          <li>$0.028 per Elastic Load Balancer-hour (or partial hour)</li><li>$0.008 per GB of data processed by an Elastic Load Balancer</li>
+        </ul>
+      </div>
+    </div><div class="content reg-eu-ireland" title="EU (Ireland)" style="display: none; ">
+      <div class="type">
+        <h3></h3>
+
+        <ul>
+          <li>$0.028 per Elastic Load Balancer-hour (or partial hour)</li><li>$0.008 per GB of data processed by an Elastic Load Balancer</li>
+        </ul>
+      </div>
+    </div><div class="content reg-apac-sin" title="Asia Pacific (Singapore)" style="display: none; ">
+      <div class="type">
+        <h3></h3>
+
+        <ul>
+          <li>$0.028 per Elastic Load Balancer-hour (or partial hour)</li><li>$0.008 per GB of data processed by an Elastic Load Balancer</li>
+        </ul>
+      </div>
+    </div><div class="content reg-apac-tokyo" title="Asia Pacific (Tokyo)" style="display: none; ">
+      <div class="type">
+        <h3></h3>
+
+        <ul>
+          <li>$0.028 per Elastic Load Balancer-hour (or partial hour)</li><li>$0.008 per GB of data processed by an Elastic Load Balancer</li>
+        </ul>
+      </div>
+    </div>
+  </div></div></div>
+
+<h2>AWS GovCloud Region</h2>
+
+<p>
+<a href="/web/20110831155858/http://aws.amazon.com/govcloud-us/">AWS GovCloud</a> is an AWS Region designed to allow U.S. government agencies and contractors to move more sensitive workloads into the cloud by addressing their specific regulatory and compliance requirements. For pricing and more information on the new AWS GovCloud Region, please visit the <a href="/web/20110831155858/http://aws.amazon.com/govcloud-us/#pricing">AWS GovCloud Web Page</a>.
+</p>
+<br>
+
+<div style="font-size:11px;">
+<i><code>*</code> Your usage for the free tier is calculated each month across all regions except the AWS GovCloud Region, and automatically applied to your bill – unused monthly usage will not roll over. Does not include Amazon EC2 running Microsoft, Amazon EC2 running SUSE Linux Enterprise Server, Amazon EC2 running IBM, and the AWS GovCloud Region. See <a href="http://web.archive.org/web/20110831155858/http://aws.amazon.com/free/terms">offer terms</a> for more details and other restrictions.<br>
+<code>**</code> As part of AWS’s Free Usage Tier, new AWS customers will receive free 15 GB of data transfer out each month aggregated across all AWS services for one year except in the AWS GovCloud Region.<br>
+<code>***</code> Rate tiers take into account your aggregate Data Transfer Out usage across Amazon EC2, Amazon S3, Amazon RDS, Amazon SimpleDB, Amazon SQS, Amazon SNS, and Amazon VPC.<br><br></i>
+</div>
+
+<p><em>(Amazon EC2 is sold by Amazon Web Services LLC.)</em></p>
+
+
+
+
+
+
+
+
+
+
+  <div class="toplink">
+  <a href="#top"><span class="uparrow">↑</span> Top</a>
+</div>
+
+
+
+<div class="pricingTableDictionary">
+  <div class="dictkey-contactus"><a href="/web/20110831155858/http://aws.amazon.com/contact-us/aws-sales/">Contact Us</a></div>
+</div>
+
+<select id="ec2Dictionary" class="pricingTableDictionary">
+  <option value="allDataXferIn">All data transfer in</option>
+  <option value="allXferIn">All data transfer in</option>
+  <option value="clusterCompResI">Cluster Compute Reserved Instances</option>
+  <option value="clusterComputeI">Cluster Compute Instances</option>
+  <option value="clusterGPUI">Cluster GPU Instances</option>
+  <option value="clusterGPUResI">Cluster GPU Reserved Instances</option>
+  <option value="clusterOnlyInUSEast">Cluster Compute and Cluster GPU Instances are currently only available in the US East (Virginia) Region.</option>
+  <option value="dataXfer">Data Transfer**</option>
+  <option value="dataXferIn">Data Transfer IN</option>
+  <option value="dataXferOut">Data Transfer OUT</option>
+  <option value="ebsSnapsToS3">Amazon EBS Snapshots to Amazon S3</option>
+  <option value="ebsVols">Amazon EBS Volumes</option>
+  <option value="firstGBout">First 1 GB / month</option>
+  <option value="hiCPUODI">Hi-CPU On-Demand Instances</option>
+  <option value="hiCPUResI">High-CPU Reserved Instances</option>
+  <option value="hiCPUSpot">High-CPU Spot Instances</option>
+  <option value="hiMemODI">Hi-Memory On-Demand Instances</option>
+  <option value="hiMemResI">High-Memory Reserved Instances</option>
+  <option value="hiMemSpot">High-Memory Spot Instances</option>
+  <option value="lg">Large</option>
+  <option value="linux">Linux/UNIX Usage</option>
+  <option value="med">Medium</option>
+  <option value="mswin">Windows Usage</option>
+  <option value="next350TBout">Next 350 TB / month</option>
+  <option value="next05PBout">Next 524 TB / month</option>
+  <option value="next4PBout">Next 4 PB / month</option>
+  <option value="greater5PBout">Greater than 5 PB / month</option>
+  <option value="over5PBout">Over 5 PB / month</option>
+  <option value="next100TBout">Next 100 TB / month</option>
+  <option value="next10TBout">Next 10 TB / month</option>
+  <option value="next40TBout">Next 40 TB / month</option>
+  <option value="notAvailableForCCorCGPU">Windows® is not currently available for Cluster Compute or Cluster GPU Instances</option>
+  <option value="over150TBout">Greater than 150 TB / month</option>
+  <option value="per10kGETwhenLoading">per 10,000 GET requests (when loading a snapshot)</option>
+  <option value="per1kPUTwhenSaving">per 1,000 PUT requests (when saving a snapshot)</option>
+  <option value="perGBin/out">per GB in/out</option> 
+  <option value="perGBmoDataStored">per GB-month of data stored</option>
+  <option value="perGBmoProvStorage">per GB-month of provisioned storage</option>
+  <option value="perMMIOreq">per 1 million I/O requests</option>
+  <option value="phr">per hour</option>
+  <option value="pricing">Pricing</option>
+  <option value="putcopypost">PUT, COPY, POST, or LIST Requests</option>
+  <option value="reducedRedundancyStorage">Reduced Redundancy Storage</option>
+  <option value="sm">Small (Default)</option>
+  <option value="stdODI">Standard On-Demand Instances</option>
+  <option value="stdResI">Standard Reserved Instances</option>
+  <option value="stdSpot">Standard Spot Instances</option>
+  <option value="storage">Standard Storage</option>
+  <option value="u">Micro</option>
+  <option value="uODI">Micro On-Demand Instances</option>
+  <option value="uResI">Micro Reserved Instances</option>
+  <option value="uSpot">Micro Spot Instances</option>
+  <option value="upTo10TBout">Up to 10 TB / month</option>
+  <option value="xl">Extra Large</option>
+  <option value="xxl">Double Extra Large</option>
+  <option value="xxxxl">Quadruple Extra Large</option>
+  <option value="yrTerm1">1 yr Term</option>
+  <option value="yrTerm3">3 yr Term</option>
+  <option value="noCostForEIPsWhileInUse">No cost for Elastic IP addresses while in use</option>
+  <option value="perNonAttachedPerHour">per non-attached Elastic IP address per complete hour</option>
+  <option value="perRemapFirst100">per Elastic IP address remap – first 100 remaps / month</option>
+  <option value="perRemapOver100">per Elastic IP address remap – additional remap / month over 100</option>
+  <option value="ec2Monitoring">Detailed Monitoring for Amazon EC2 Instances</option>
+  <option value="perInstanceHour@1min">per instance-hour (or partial hour) for Detailed Monitoring at 1-minute frequency        
+  </option><option value="perInstance@1min">per instance per month, provided at 1-minute frequency</option>
+  <option value="ec2BasicMonitoring">Basic Monitoring for Amazon EC2 instances</option>
+  <option value="freeOfCharge">(free of charge) per instance per month, provided at 5-minute frequency</option>
+  <option value="cwCustomMetrics">Monitoring for Custom Metrics</option>
+  <option value="cwMetricsPerMonth">per metric per month</option>
+  <option value="perELBHour">per Elastic Load Balancer-hour (or partial hour)</option>
+  <option value="perGBProcessed">per GB of data processed by an Elastic Load Balancer</option>
+</select>
+
+    </div>
+  </div>
+
+
+  <div class="yui-b">
+    <div id="sideNav">
+      
+
+
+
+
+
+
+
+
+  <div id="subNavA">
+  
+
+
+
+
+
+
+
+
+  
+  <div id="subPageSelector" class="products">
+    <div id="subPageComboButton" style="display: block; "></div>
+    <div class="flyout">
+      <div class="liner">
+        
+  <div class="col1">
+  <h4>Compute</h4>
+  <ul class="">
+        
+    
+      <li class="">
+        <a href="/web/20110831155858/http://aws.amazon.com/ec2/" class="">
+      Amazon Elastic Compute Cloud <span class="norm">(EC2)</span>
+    </a>
+      </li>
+    
+    
+      <li class="">
+        <a href="/web/20110831155858/http://aws.amazon.com/elasticmapreduce/" class="">
+      Amazon Elastic MapReduce
+    </a>
+      </li>
+    
+    
+      <li class="">
+        <a href="/web/20110831155858/http://aws.amazon.com/autoscaling/" class="">
+      Auto Scaling
+    </a>
+      </li>
+    
+  
+      </ul>
+
+  <h4>Content Delivery</h4>
+  <ul class="">
+        
+    
+      <li class="">
+        <a href="/web/20110831155858/http://aws.amazon.com/cloudfront/" class="">
+      Amazon CloudFront
+    </a>
+      </li>
+    
+  
+      </ul>
+
+  <h4>Database</h4>
+  <ul class="">
+        
+    
+      <li class="">
+        <a href="/web/20110831155858/http://aws.amazon.com/simpledb/" class="">
+      Amazon SimpleDB
+    </a>
+      </li>
+    
+    
+      <li class="">
+        <a href="/web/20110831155858/http://aws.amazon.com/rds/" class="">
+      Amazon Relational Database Service <span class="norm">(RDS)</span>
+    </a>
+      </li>
+    
+    
+      <li class="">
+        <a href="/web/20110831155858/http://aws.amazon.com/elasticache/" class="">
+      Amazon ElastiCache 
+    </a>
+      </li>
+    
+  
+      </ul>
+
+  <h4>Deployment &amp; Management</h4>
+  <ul class="">
+        
+    
+      <li class="">
+        <a href="/web/20110831155858/http://aws.amazon.com/elasticbeanstalk/" class="">
+      AWS Elastic Beanstalk
+    </a>
+      </li>
+    
+    
+      <li class="">
+        <a href="/web/20110831155858/http://aws.amazon.com/cloudformation/" class="">
+      AWS CloudFormation
+    </a>
+      </li>
+    
+  
+      </ul>
+
+  <h4>E-Commerce</h4>
+  <ul class="">
+        
+    
+      <li class="">
+        <a href="/web/20110831155858/http://aws.amazon.com/fws/" class="">
+      Amazon Fulfillment Web Service (FWS)
+    </a>
+      </li>
+    
+  
+      </ul>
+
+  <h4>Industry-specific Clouds</h4>
+  <ul class="">
+        
+    
+      <li class="">
+        <a href="/web/20110831155858/http://aws.amazon.com/govcloud-us/" class="">
+      AWS GovCloud (US)
+    </a>
+      </li>
+    
+  
+      </ul>
+
+  <h4>Messaging</h4>
+  <ul class="">
+        
+    
+      <li class="">
+        <a href="/web/20110831155858/http://aws.amazon.com/sqs/" class="">
+      Amazon Simple Queue Service <span class="norm">(SQS)</span>
+    </a>
+      </li>
+    
+    
+      <li class="">
+        <a href="/web/20110831155858/http://aws.amazon.com/sns/" class="">
+      Amazon Simple   Notification Service <span class="norm">(SNS)</span>
+    </a>
+      </li>
+    
+    
+      <li class="">
+        <a href="/web/20110831155858/http://aws.amazon.com/ses/" class="">
+      Amazon Simple Email Service <span class="norm">(SES)</span>
+    </a>
+      </li>
+    
+  
+      </ul>
+
+  <h4>Monitoring</h4>
+  <ul class="">
+        
+    
+      <li class="">
+        <a href="/web/20110831155858/http://aws.amazon.com/cloudwatch/" class="">
+      Amazon CloudWatch
+    </a>
+      </li>
+    
+  
+      </ul>
+</div>
+
+<div class="col2">
+  <h4>Networking</h4>
+  <ul class="">
+        
+    
+      <li class="">
+        <a href="/web/20110831155858/http://aws.amazon.com/route53/" class="">
+      Amazon Route 53
+    </a>
+      </li>
+    
+    
+      <li class="">
+        <a href="/web/20110831155858/http://aws.amazon.com/vpc/" class="">
+      Amazon Virtual Private Cloud <span class="norm">(VPC)</span>
+    </a>
+      </li>
+    
+    
+      <li class="">
+        <a href="/web/20110831155858/http://aws.amazon.com/elasticloadbalancing/" class="">
+      Elastic Load Balancing
+    </a>
+      </li>
+    
+    
+      <li class="">
+        <a href="/web/20110831155858/http://aws.amazon.com/directconnect/" class="">
+      AWS Direct Connect
+    </a>
+      </li>
+    
+  
+      </ul>
+
+  <h4>Payments &amp; Billing</h4>
+  <ul class="">
+        
+    
+      <li class="">
+        <a href="/web/20110831155858/http://aws.amazon.com/fps/" class="">
+      Amazon Flexible Payments Service <span class="norm">(FPS)</span>
+    </a>
+      </li>
+      
+    
+      <li class="">
+        <a href="/web/20110831155858/http://aws.amazon.com/devpay/" class="">
+      Amazon DevPay
+    </a>
+      </li>
+    
+  
+      </ul>
+
+  <h4>Storage</h4>
+  <ul class="">
+        
+    
+      <li class="">
+        <a href="/web/20110831155858/http://aws.amazon.com/s3/" class="">
+      Amazon Simple Storage Service <span class="norm">(S3)</span>
+    </a>
+      </li>
+    
+    
+      <li class="">
+        <a href="/web/20110831155858/http://aws.amazon.com/ebs/" class="">
+      Amazon Elastic Block Storage <span class="norm">(EBS)</span>
+    </a>
+      </li>
+    
+    
+      <li class="">
+        <a href="/web/20110831155858/http://aws.amazon.com/importexport/" class="">
+      AWS Import/Export
+    </a>
+      </li>
+    
+  
+      </ul>
+
+  <h4>Support</h4>
+  <ul class="">
+        
+    
+      <li class="">
+        <a href="/web/20110831155858/http://aws.amazon.com/premiumsupport/" class="">
+      AWS Premium Support
+    </a>
+      </li>
+    
+  
+      </ul>
+
+  <h4>Web Traffic</h4>
+  <ul class="">
+        
+    
+      <li class="">
+        <a href="/web/20110831155858/http://aws.amazon.com/awis/" class="">Alexa Web Information Service</a>
+      </li>
+    
+    
+      <li class="">
+        <a href="/web/20110831155858/http://aws.amazon.com/alexatopsites/" class="">Alexa Top Sites</a>
+      </li>
+    
+  
+      </ul>
+
+  <h4>Workforce</h4>
+  <ul class="">
+        
+    
+      <li class="">
+        <a href="/web/20110831155858/http://aws.amazon.com/mturk/" class="">
+      Amazon Mechanical Turk
+    </a>
+      </li>
+    
+  
+      </ul>
+</div>
+
+
+      </div>
+    </div>
+    <a href="/web/20110831155858/http://aws.amazon.com/products/" class="noScript" style="display: none; ">Products &amp; Services</a>
+  </div>
+   
+
+
+
+  
+    <div class="decoratedBox ">
+      <div class="head">
+        <h4>Amazon EC2 Details</h4>
+      </div>
+      <div class="body">
+        <div class="liner">
+          
+    <ul class="">
+        
+      
+      <li class="">
+        <a href="/web/20110831155858/http://aws.amazon.com/ec2/" class="">EC2 Overview</a>
+      </li>
+    
+      
+      <li class="">
+        <a href="/web/20110831155858/http://aws.amazon.com/ec2/faqs/" class="">EC2 FAQs</a>
+      </li>
+    
+      
+      <li class="">
+        <a href="/web/20110831155858/http://aws.amazon.com/ec2/pricing/" class="selected">EC2 Pricing</a>
+      </li>
+    
+      
+      <li class="">
+        <a href="/web/20110831155858/http://aws.amazon.com/ec2-sla/" class="">Amazon EC2 SLA</a>
+      </li>
+    
+      
+      <li class="">
+        <a href="/web/20110831155858/http://aws.amazon.com/ec2/instance-types/" class="">EC2 Instance Types</a>
+      </li>
+    
+      
+      <li class="">
+        <a href="/web/20110831155858/http://aws.amazon.com/ec2/purchasing-options/" class="">EC2 Instance Purchasing Options</a>
+      </li>
+    
+      
+      <li class="">
+        <a href="/web/20110831155858/http://aws.amazon.com/ec2/reserved-instances/" class="">Reserved Instances</a>
+      </li>
+    
+      
+      <li class="">
+        <a href="/web/20110831155858/http://aws.amazon.com/ec2/spot-instances/" class="">Spot Instances</a>
+      </li>
+    
+      
+      <li class="last">
+        <a href="/web/20110831155858/http://aws.amazon.com/windows/" class="">Windows Instances</a>
+      </li>
+    
+    
+      </ul>
+  
+        </div>
+      </div>
+    </div>
+    
+
+  
+    <div class="decoratedBox last">
+      <div class="head">
+        <h4>Amazon EC2 Features</h4>
+      </div>
+      <div class="body">
+        <div class="liner">
+          
+    <ul class="">
+        
+      
+      <li class="">
+        <a href="/web/20110831155858/http://aws.amazon.com/ebs/" class="">Elastic Block Store</a>
+      </li>
+    
+      
+      <li class="">
+        <a href="/web/20110831155858/http://aws.amazon.com/cloudwatch/" class="">Amazon CloudWatch</a>
+      </li>
+    
+      
+      <li class="">
+        <a href="/web/20110831155858/http://aws.amazon.com/autoscaling/" class="">Auto Scaling</a>
+      </li>
+    
+      
+      <li class="">
+        <a href="/web/20110831155858/http://aws.amazon.com/elasticloadbalancing/" class="">Elastic Load Balancing</a>
+      </li>
+    
+      
+      <li class="">
+        <a href="/web/20110831155858/http://aws.amazon.com/ec2/hpc-applications/" class="">High Performance Computing</a>
+      </li>
+    
+      
+      <li class="last">
+        <a href="/web/20110831155858/http://aws.amazon.com/ec2/vmimport/" class="">VM Import</a>
+      </li>
+    
+    
+      </ul>
+  
+        </div>
+      </div>
+    </div>
+    
+</div>
+
+
+<div id="subNavB">
+  
+    <div class="decoratedBox ">
+      <div class="head">
+        <h4>Related Resources</h4>
+      </div>
+      <div class="body">
+        <div class="liner">
+          
+    <ul class="">
+        
+      
+      <li class="">
+        <a href="/web/20110831155858/http://aws.amazon.com/console/" class="">AWS Management Console</a>
+      </li>
+    
+      
+      <li class="">
+        <a href="/web/20110831155858/http://aws.amazon.com/documentation/ec2/" class="">Documentation</a>
+      </li>
+    
+      
+      <li class="">
+        <a href="http://web.archive.org/web/20110831155858/http://developer.amazonwebservices.com/connect/kbcategory.jspa?categoryID=86" class="">Release Notes</a>
+      </li>
+    
+      
+      <li class="">
+        <a href="http://web.archive.org/web/20110831155858/http://developer.amazonwebservices.com/connect/kbcategory.jspa?categoryID=88" class="">Developer Tools</a>
+      </li>
+    
+      
+      <li class="">
+        <a href="http://web.archive.org/web/20110831155858/http://developer.amazonwebservices.com/connect/kbcategory.jspa?categoryID=85" class="">Sample Code &amp; Libraries</a>
+      </li>
+    
+      
+      <li class="">
+        <a href="http://web.archive.org/web/20110831155858/http://developer.amazonwebservices.com/connect/kbcategory.jspa?categoryID=88" class="">Developer Tools</a>
+      </li>
+    
+      
+      <li class="">
+        <a href="http://web.archive.org/web/20110831155858/http://developer.amazonwebservices.com/connect/kbcategory.jspa?categoryID=100" class="">Articles &amp; Tutorials</a>
+      </li>
+    
+      
+      <li class="">
+        <a href="http://web.archive.org/web/20110831155858/http://developer.amazonwebservices.com/connect/kbcategory.jspa?categoryID=171" class="">Amazon Machine Images (AMIs)</a>
+      </li>
+    
+      
+      <li class="">
+        <a href="/web/20110831155858/http://aws.amazon.com/publicdatasets/" class="">Public Data Sets on AWS</a>
+      </li>
+    
+      
+      <li class="last">
+        <a href="http://web.archive.org/web/20110831155858/http://developer.amazonwebservices.com/connect/forum.jspa?forumID=30" class="">Community Forum</a>
+      </li>
+    
+  
+      </ul>
+  
+        </div>
+      </div>
+    </div>
+    
+
+<br><br><br>
+  
+    <div class="decoratedBox ">
+      <div class="head">
+        <h4>EC2 Running Microsoft</h4>
+      </div>
+      <div class="body">
+        <div class="liner">
+          
+    <div class="liner">
+      <img src="//web.archive.org/web/20110831155858im_/http://d36cz9buwru1tt.cloudfront.net/globalNav/img/logo-microsoft.png" width="137" height="27" class="logo" alt="Microsoft">
+      <p>
+        Amazon EC2 running Microsoft Windows Server® 2003/2008 is a fast and 
+        dependable environment for deploying applications using the Microsoft Web Platform. 
+      </p>
+      <div class="learnMore">
+        <span class="carat">&gt;</span>
+        <a href="/web/20110831155858/http://aws.amazon.com/windows/">Learn More</a>
+      </div>
+    </div>
+  
+        </div>
+      </div>
+    </div>
+    
+
+  <br><br><br>
+
+    <div class="decoratedBox last">
+      <div class="head">
+        <h4>EC2 Running IBM</h4>
+      </div>
+      <div class="body">
+        <div class="liner">
+          
+    <div class="liner">
+      <img src="//web.archive.org/web/20110831155858im_/http://d36cz9buwru1tt.cloudfront.net/globalNav/img/logo-ibm.png" width="140" height="53" class="logo" alt="IBM">
+      <p>
+        You can run many of the proven IBM platform technologies with which you're already familiar.
+      </p>
+      <div class="learnMore">
+        <span class="carat">&gt;</span>
+        <a href="/web/20110831155858/http://aws.amazon.com/ibm/">Learn More</a>
+      </div>
+    </div>
+  
+        </div>
+      </div>
+    </div>
+    
+</div>
+
+    </div>
+  </div>
+  
+</div>
+    <div id="ft">
+
+
+
+
+
+
+
+
+  <div style="border-top: 1px solid #ccc; margin-bottom: 12px; margin-top: 10px; padding-top: 2px;">
+  <ul class="h_bar">
+    <li class="first">
+      <a href="http://web.archive.org/web/20110831155858/http://aws.typepad.com/" target="_blank">AWS Blog <img src="//web.archive.org/web/20110831155858im_/http://d36cz9buwru1tt.cloudfront.net/icon_offsite.gif" width="15" height="13" border="0" alt="This link will launch a new browser window or tab."></a>
+    </li>
+    <li><a href="http://web.archive.org/web/20110831155858/http://phx.corporate-ir.net/phoenix.zhtml?c=176060&amp;p=irol-InfoReq">Press Inquiries</a></li>
+    <li><a href="/web/20110831155858/http://aws.amazon.com/careers/">Careers at AWS</a></li>
+    <li><a href="/web/20110831155858/http://aws.amazon.com/contact-us/">Contact Us</a></li>
+    <li><a href="/web/20110831155858/http://aws.amazon.com/privacy/">Privacy Policy</a></li>
+    <li><a href="/web/20110831155858/http://aws.amazon.com/terms/">Terms of Use</a></li>
+  </ul>
+  <div class="grey666">©2011, Amazon Web Services LLC or its affiliates. All rights reserved.</div>
+  <img src="//web.archive.org/web/20110831155858im_/http://d36cz9buwru1tt.cloudfront.net/awsmedia/logo_an_amazon_company.gif" width="160" height="21" vspace="8">
+</div>
+
+</div> 
+  </div>
+
+
+  
+    
+
+<script src="/web/20110831155858js_/http://aws.amazon.com/js/dictionary-EN.js" type="text/javascript"></script>
+<script src="/web/20110831155858js_/http://aws.amazon.com/js/pure.min.js" type="text/javascript"></script>
+<script src="/web/20110831155858js_/http://aws.amazon.com/js/jquery.pricingTable.js" type="text/javascript"></script>
+
+<script type="text/x-html" id="listTableTemplate">
+  <div class="regions">
+    <div class="content">
+      <div class="type">
+        <h3></h3>
+
+        <ul>
+          <li></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</script>
+
+
+<script id="templateA" type="text/x-html">
+  <div class="content" style="display: none">
+    <table class="tan-table">
+      <caption><!-- US N. Virginia --></caption>
+      <thead>
+        <tr>
+          <th></th>
+          <th class="rate"></th>
+        </tr>
+      </thead>
+      <tbody class="body">
+        <tr class="heading">
+          <th class="type" colspan="3"><!-- Standard On-Demand Instances --></th>
+        </tr>
+        <tr class="sizes">
+          <td class="size"><!-- Small (Default) --></td>
+          <td class="rate"><!-- $0.085 per hour --></td>
+        </tr>
+      </tbody>
+      <tbody class="footnotes">
+        <tr>
+          <td colspan="3">
+            <code></code>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</script>
+
+<script type="text/javascript">
+//<![CDATA[
+AWS.namespace('AWS.Pure.Directives').DataXferTable = {
+    '.content': {
+        'r <- config.regions': {
+            '@class+': " reg-#{r.region}",
+            'caption': function(ctx) {
+                return ctx.context._lookup(this.region);
+            },
+            'thead .type': {
+                'type <- config.valueColumns': {
+                    '.': function(ctx) {
+                        return ctx.context._lookup(this);
+                    }
+                }
+            },
+            'tbody': {
+                'type <- r.types': {
+                    'tr.heading .type': function(ctx) {
+                        return ctx.context._lookup(this.name);
+                    },
+                    'tr.tiers': {
+                        'tier <- type.tiers': {
+                            '.tier': function(ctx) {
+                                return ctx.context._lookup(this.name);
+                            },
+                            '.price': function(ctx) {
+                                return ctx.context._formatCurrency.call(this);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+};
+//]]>
+</script>
+
+<script type="text/javascript">
+jQuery(function($) {
+    var tableDirectives = {
+        '.content': {
+            'r <- config.regions': {
+                '@class+': " reg-#{r.region}",
+                'caption': function(ctx) {
+                    return ctx.context._lookup(this.region);
+                },
+                'thead th.rate': {
+                    'plat <- config.valueColumns': {
+                        '.': function(ctx) {
+                            return ctx.context._lookup(this);
+                        }
+                    }
+                },
+                'tbody.body': {
+                    'i <- r.instanceTypes': {
+                        'tr.heading th.type': function(ctx) {
+                            return ctx.context._lookup(this.type);
+                        },
+                        'tr.heading th.type@colspan': function(ctx) {
+                            return ctx.context.config.valueColumns.length + 1;
+                        },
+                        'tr.sizes': {
+                            's <- i.sizes': {
+                                'td.size': function(ctx) {
+                                    return ctx.context._lookup(this.size);
+                                },
+                                'td.rate': {
+                                    'column <- s.valueColumns': {
+                                        '.': function(ctx) {
+                                            return ctx.context._formatCurrency.call(this);
+                                        },
+                                        '@class+': ' #{column.name}'
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                'tbody.footnotes': {
+                    'fn <- r.footnotes': {
+                        'tr td': function(ctx) {
+                            return "<code>" +
+                                ctx.context._lookup(ctx.pos) +
+                                "</code> " +
+                                ctx.context._lookup(ctx.item);
+                        },
+                        'tr td@colspan': function(ctx) {
+                            return ctx.context.config.valueColumns.length + 1;
+                        }
+                    }
+                }
+            }
+        }
+    };
+
+    var listTableDirectives = {
+        '.content': {
+            'r <- config.regions': {
+                '@class+': ' reg-#{r.region}',
+                '@title': function(ctx) {
+                    return ctx.context._lookup(this.region);
+                },
+                '.type': {
+                    'type <- r.types': {
+                        'h3': function(ctx) {
+                            return ctx.context._lookup(this.name);
+                        },
+                        'li': {
+                            'val <- type.values': {
+                                '.': function(ctx) {
+                                    return ctx.context._formatCurrency.call(this);
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    };
+
+    var templateA       = $('#templateA');
+    var ec2Dict         = $('#ec2Dictionary');
+
+    $('#onDemandPricing').pricingTable({
+        template: templateA,
+        model: '/ec2/pricing/pricing-on-demand-instances.json',
+        directives: tableDirectives,
+        dict: ec2Dict
+    });
+ 
+    $('#reservedInstancePricing').pricingTable({
+        model: '/ec2/pricing/pricing-reserved-instances.json',
+        template: '#templateA',
+        directives: tableDirectives,
+        dict: ec2Dict
+    });
+
+    $('#dataXferPricing').pricingTable({
+        model: '/ec2/pricing/pricing-data-transfer.json',
+        dict: ec2Dict,
+        directives: $.extend(true, {}, AWS.Pure.Directives.DataXferTable, {
+            '.content': {
+                'r <- config.regions': {
+                    '.azDataTransferPrice': function(ctx) {
+                        if ( this.azDataTransfer ) {
+                            return ctx.context._formatCurrency.call(this.azDataTransfer);
+                        }
+                        return 'undefined';
+                    },
+                    '.regionalTransferPrice': function(ctx) {
+                        if ( this.regionalDataTransfer ) {
+                            return ctx.context._formatCurrency.call(this.regionalDataTransfer);
+                        }
+                        return 'undefined';
+                    },
+                    '.elasticLBTransferPrice': function(ctx) {
+                        if ( this.regionalDataTransfer ) {
+                            return ctx.context._formatCurrency.call(this.elasticLBDataTransfer);
+                        }
+                        return 'undefined';
+                    }
+                }
+            }
+        })
+    });
+
+    $('#spotPricing').pricingTable({
+        dataType: 'jsonp',
+        model: 'http://web.archive.org/web/20110831155858/http://spot-price.s3.amazonaws.com/spot.js',
+        template: '#templateA',
+        directives: tableDirectives,
+        dict: ec2Dict
+    });
+
+    var listTableTemplate = $('#listTableTemplate');
+
+    $('#ebsPricing').pricingTable({
+        model: '/ec2/pricing/pricing-ebs.json',
+        dict: ec2Dict,
+        template: listTableTemplate,
+        directives: listTableDirectives
+    });
+
+    $('#elasticIPAddressPricing').pricingTable({
+        model: '/ec2/pricing/pricing-elastic-ips.json',
+        dict: ec2Dict,
+        template: listTableTemplate,
+        directives: listTableDirectives
+    });
+
+    $('#cloudWatchPricing').pricingTable({
+        model: '/ec2/pricing/pricing-cloudwatch.json',
+        dict: ec2Dict,
+        template: listTableTemplate,
+        directives: listTableDirectives
+    });
+
+    $('#elbPricing').pricingTable({
+        model: '/ec2/pricing/pricing-elb.json',
+        dict: ec2Dict,
+        template: listTableTemplate,
+        directives: listTableDirectives
+    });
+});
+</script>
+
+  
+
+
+
+
+
+
+
+<ul id="globalSearchFlyout" style="min-width: 197px; position: absolute; top: 128px; left: 493px; "><li>Entire Site</li><li>AMIs</li><li>Articles &amp; Tutorials</li><li>AWS Product Information</li><li>Case Studies</li><li>Customer Apps</li><li>Developer Tools</li><li>Documentation</li><li>Public Data Sets</li><li>Release Notes</li><li>Solution Providers</li><li>Sample Code &amp; Libraries</li></ul></body></html>
